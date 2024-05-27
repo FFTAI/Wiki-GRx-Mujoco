@@ -11,3 +11,8 @@
     ```
     sudo apt-get install libglfw3 libglfw3-dev
     ```
+
+---
+
+Thank you for your interest in the Fourier Intelligence GRx Robot Repositories.
+We hope you find this resource helpful in your robotics projects!
