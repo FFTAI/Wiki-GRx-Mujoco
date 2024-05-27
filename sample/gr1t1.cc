@@ -33,6 +33,8 @@ bool button_right = false;
 double lastx = 0;
 double lasty = 0;
 
+// -------------------------------------------------------------------------------------------------
+
 // keyboard callback
 void keyboard(GLFWwindow *window, int key, int scancode, int act, int mods)
 {
@@ -105,6 +107,20 @@ void scroll(GLFWwindow *window, double xoffset, double yoffset)
     mjv_moveCamera(mj_model, mjMOUSE_ZOOM, 0, -0.05 * yoffset, &mj_scene, &mj_camera);
 }
 
+// control callback
+// simple controller applying damping to each dof
+void rl_walk_controller(const mjModel* mj_model, mjData* mj_data)
+{
+  // number of controls: mjModel.nu, 16
+  // number of DoFs: mjModel.nv, 10
+  // mju_warning("mj_model->nu: %i", mj_model->nu);
+  // mju_warning("mj_model->nv: %i", mj_model->nv);
+  if ( mj_model->nu == mj_model->nv )
+  {
+    mju_scl(mj_data->ctrl, mj_data->qvel, -0.1, mj_model->nv);
+  }
+}
+
 // -------------------------------------------------------------------------------------------------
 
 // main function
@@ -140,6 +156,9 @@ int main(int argc, const char **argv)
     mjv_defaultScene(&mj_scene);
     mjr_defaultContext(&mj_contex);
 
+    // set timestep
+    mju_warning("Timestep: %f", mj_model->opt.timestep);
+
     // create scene and context
     mjv_makeScene(mj_model, &mj_scene, 2000);
     mjr_makeContext(mj_model, &mj_contex, mjFONTSCALE_150);
@@ -150,6 +169,9 @@ int main(int argc, const char **argv)
     glfwSetMouseButtonCallback(window, mouse_button);
     glfwSetScrollCallback(window, scroll);
 
+    // install control callback through assign it to the global control callback pointer mjcb_control:
+    mjcb_control = rl_walk_controller;
+
     // run main loop, target real-time simulation and 60 fps rendering
     while (!glfwWindowShouldClose(window))
     {
@@ -158,6 +180,8 @@ int main(int argc, const char **argv)
         //  this loop will finish on time for the next frame to be rendered at 60 fps.
         //  Otherwise add a cpu timer and exit this loop when it is time to render.
         mjtNum simstart = mj_data->time;
+
+        // do simulation step
         while (mj_data->time - simstart < 1.0 / 60.0)
         {
             mj_step(mj_model, mj_data);

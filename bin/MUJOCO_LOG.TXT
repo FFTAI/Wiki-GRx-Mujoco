@@ -77,3 +77,9057 @@ WARNING: key: 259
 Sun May 26 19:18:46 2024
 WARNING: key: 259
 
+Mon May 27 00:30:07 2024
+ERROR: Load model error: XML Error: Schema violation: unrecognized attribute: 'solveriterations'
+
+Element 'option', line 4
+
+
+Mon May 27 00:30:10 2024
+ERROR: Load model error: XML Error: Schema violation: unrecognized attribute: 'solveriterations'
+
+Element 'option', line 4
+
+
+Mon May 27 00:30:16 2024
+ERROR: Load model error: XML Error: Schema violation: unrecognized attribute: 'solveriterations'
+
+Element 'option', line 4
+
+
+Mon May 27 00:30:34 2024
+WARNING: Timestep: 0.002000
+
+Mon May 27 00:30:55 2024
+WARNING: Timestep: 0.002000
+
+Mon May 27 08:44:48 2024
+WARNING: Timestep: 0.002000
+
+Mon May 27 08:45:44 2024
+WARNING: Timestep: 0.002000
+
+Mon May 27 08:45:49 2024
+WARNING: Timestep: 0.002000
+
+Mon May 27 08:47:33 2024
+WARNING: Timestep: 0.002000
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:33 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:34 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nu: 10
+
+Mon May 27 08:47:35 2024
+WARNING: mj_model->nv: 16
+
