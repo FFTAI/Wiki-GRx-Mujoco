@@ -122,7 +122,7 @@ if __name__ == '__main__':
     class Sim2simCfg(GR1T1LowerLimbCfg):
 
         class sim_config:
-            mujoco_model_path = f'./robots/gr1t1/scene.xml'
+            mujoco_model_path = f'./run/robots/gr1t1/scene.xml'
             sim_duration = 70.0
             dt = 0.001
             decimation = 20
