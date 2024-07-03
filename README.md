@@ -1,5 +1,6 @@
 # Wiki-GRx-Mujoco
-
+<img src="./run/robots/gr1t1/gr1t1.png" width="300" height="360" />
+<img src="./run/robots/gr1t2/gr1t2.png" width="300" height="360" />
 ## Description
 This repository provides an environment used to test the RL policy trained in NVIDIA's Isaac Gym on the GRx robot model in Mujoco.
 
@@ -47,9 +48,13 @@ This repository provides an environment used to test the RL policy trained in NV
    ```
    ./run/scripts
    ```
-   then run:
+   then load stand policy to control the robot to stand:
    ```
-   ./mjsim.py --load_model /home/username/.../policy/xxx_model_jit.pt
+   ./mjsim.py --load_model /home/username/.../policy/stand_model_jit.pt
+   ```
+   or load the walk policy to control the robot to walk:
+   ```
+   ./mjsim.py --load_model /home/username/.../policy/walk_model_jit.pt
    ```
     You can modify the model parameters in `gr1t1_lower_limb.xml` and `robot_config`.
 
