@@ -20,7 +20,7 @@ This repository provides an environment used to test the RL policy trained in NV
 2. Install Mujoco and Mujoco-viewer:
 
     ```
-    pip install mujoco mujoco-viewer
+    pip install mujoco mujoco-python-viewer
     ```
     - <https://mujoco.org/>
     - <https://github.com/google-deepmind/mujoco/releases>
