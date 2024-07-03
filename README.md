@@ -1,12 +1,15 @@
 # Wiki-GRx-Mujoco
 
 ## Description
-This repository provides an environment used to test the RL policy trained in NVIDIA's Isaac Gym on the GRx robot model in Gazebo.
+This repository provides an environment used to test the RL policy trained in NVIDIA's Isaac Gym on the GRx robot model in Mujoco.
 
 ## User Guide
 
 1. Install Mujoco and Mujoco-viewer:
 
+    ```
+    pip install mujoco mujoco-viewer
+    ```
     - <https://mujoco.org/>
     - <https://github.com/google-deepmind/mujoco/releases>
 

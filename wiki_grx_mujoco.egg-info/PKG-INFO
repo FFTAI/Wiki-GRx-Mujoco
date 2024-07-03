@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wiki-grx-mujoco
+Version: 1.0.0
+Summary: test policy in mujoco env
+Author: Xuanbo
+Author-email: xuanbo.wang@fftai.com
+Requires-Python: >=3.8
+Requires-Dist: mujoco
+Requires-Dist: mujoco-python-viewer
+Requires-Dist: matplotlib>=3.7.5
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: torch>=2.3.1
+Requires-Dist: tqdm
