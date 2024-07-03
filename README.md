@@ -26,6 +26,9 @@ This repository provides an environment used to test the RL policy trained in NV
     - <https://github.com/google-deepmind/mujoco/releases>
   
 3. Install more dependencies:
+    ```
+    cd Wiki-GRx-Mujoco
+    ```
 
     ```
     pip install -e .
