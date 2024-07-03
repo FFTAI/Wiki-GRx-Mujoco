@@ -5,7 +5,8 @@ This repository provides an environment used to test the RL policy trained in NV
 
 ## User Guide
 
-1. Install Mujoco:
+1. Install Mujoco and Mujoco-viewer:
+
     - <https://mujoco.org/>
     - <https://github.com/google-deepmind/mujoco/releases>
 
