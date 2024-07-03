@@ -4,6 +4,7 @@ import mujoco
 import mujoco_viewer
 from tqdm import tqdm
 from run.robots.robot_config.GR1_mj_config import GR1T1LowerLimbCfg
+from run.robots.robot_config.GR2_mj_config import GR1T2LowerLimbCfg
 import torch
 import argparse
 
@@ -119,12 +120,16 @@ if __name__ == '__main__':
     parser.add_argument('--load_model', type=str, required=True, help='Run to load from.')
     parser.add_argument('--terrain', action='store_true', help='terrain or plane')
     args = parser.parse_args()
+    if args.robot_id == 'gr1t1':
+        RobotConfig = GR1T1LowerLimbCfg
+    elif args.robot_id == 'gr1t2':
+        RobotConfig = GR1T2LowerLimbCfg
 
-    class Sim2simCfg(GR1T1LowerLimbCfg):
+    class Sim2simCfg(RobotConfig):
 
         class sim_config:
             mujoco_model_path = f'../robots/{args.robot_id}/scene.xml'
-            print('mujoco_model_path: ', mujoco_model_path)
+            
             sim_duration = 70.0
             dt = 0.001
             decimation = 20

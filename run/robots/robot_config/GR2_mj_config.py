@@ -1,29 +1,44 @@
 import numpy as np
 
-
-
-class GR1T1LowerLimbCfg():
+class GR1T2LowerLimbCfg():
     class env:
-        num_pri_obs = 168  ##
+        num_pri_obs = 168  
         num_actions = 10
         num_single_obs = 39
         num_observations = 39
 
-    class SimConfig:
-        #Simulate updaterate 50Hz
-        sim_duration = 50.0
-        dt = 0.001
-        decimation = 20
-    
+    class control:
+        action_scale = 1.0
+        # PD Drive parameters:
+        stiffness = {
+            'hip_roll': 57,
+            'hip_yaw': 43,
+            'hip_pitch': 114,
+            'knee_pitch': 114,
+            'ankle_pitch': 15.3,
+        }  # [N*m/rad]
+        damping = {
+            'hip_roll': stiffness['hip_roll'] / 10,
+            'hip_yaw': stiffness['hip_yaw'] / 10,
+            'hip_pitch': stiffness['hip_pitch'] / 10,
+            'knee_pitch': stiffness['knee_pitch'] / 10,
+            'ankle_pitch': stiffness['ankle_pitch'] / 10,
+        }
+
     class RobotConfig:
 
         kps = np.array([57, 43, 114, 114, 15.3, 
-                            57, 43, 114, 114, 15.3], dtype=np.double)  ##114
+                            57, 43, 114, 114, 15.3], dtype=np.double)  
         kds = np.array([5.7, 4.3, 11.4, 11.4, 1.53, 
                             5.7, 4.3, 11.4, 11.4, 1.53], dtype=np.double)
         tau_limit = np.array([60, 45, 130, 130, 16, 
                                 60, 45, 130, 130, 16], dtype=np.double)
         joint_nums = 10
+
+    class MujocoModelPath:
+        def __init__(self, path='./'):
+            self.path = path
+
 
     class normalization:
         actions_max = np.array([
@@ -36,10 +51,8 @@ class GR1T1LowerLimbCfg():
         ])
 
         clip_observations = 100.0
-        clip_actions_max = np.array([1.1391, 1.0491, 1.0491, 2.2691, 0.8691,
-                                        0.4391, 1.0491, 1.0491, 2.2691, 0.8691])
-        clip_actions_min = np.array([-0.4391, -1.0491, -2.0991, -0.4391, -1.3991,
-                                        -1.1391, -1.0491, -2.0991, -0.4391, -1.3991])
+        clip_actions_max = actions_max + 60 / 180 * np.pi / 3
+        clip_actions_min = actions_min - 60 / 180 * np.pi / 3
         class obs_scales:
             action = 1.0
             lin_vel = 1.0
@@ -47,8 +60,6 @@ class GR1T1LowerLimbCfg():
             dof_pos = 1.0
             dof_vel = 1.0
             height_measurements = 1.0
-
-        
 
     class init_state():
         pos = [0.0, 0.0, 0.95]  # x,y,z [m]
@@ -69,26 +80,3 @@ class GR1T1LowerLimbCfg():
             'r_ankle_pitch': -0.2618,
             #'r_ankle_roll': 0.0,
         }
-
-    class MujocoModelPath:
-        def __init__(self, path='./'):
-            self.path = path
-
-    class control():
-        action_scale = 1.0
-        # PD Drive parameters:
-        stiffness = {
-            'hip_roll': 57,
-            'hip_yaw': 43,
-            'hip_pitch': 114,
-            'knee_pitch': 114,
-            'ankle_pitch': 15.3,
-        }  # [N*m/rad]
-        damping = {
-            'hip_roll': stiffness['hip_roll'] / 10,
-            'hip_yaw': stiffness['hip_yaw'] / 10,
-            'hip_pitch': stiffness['hip_pitch'] / 10,
-            'knee_pitch': stiffness['knee_pitch'] / 10,
-            'ankle_pitch': stiffness['ankle_pitch'] / 10,
-        }
-        
