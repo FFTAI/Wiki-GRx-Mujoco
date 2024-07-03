@@ -27,7 +27,7 @@ This repository provides an environment used to test the RL policy trained in NV
   
 3. Install more dependencies:
     ```
-    cd Wiki-GRx-Mujoco
+    cd wiki-grx-mujoco
     ```
 
     ```
@@ -63,13 +63,13 @@ This repository provides an environment used to test the RL policy trained in NV
 
         load stand policy to control the robot GR1T1 to stand:
         ```
-        ./mjsim.py --load_model /home/username/.../policy/stand_model_jit.pt
+        ./mjsim.py gr1t1 --load_model /home/username/.../policy/stand_model_jit.pt
         ```
-        or load the walk policy to control the robot to walk:
+        or load the walk policy to control the robot GR1T2 to walk:
         ```
-        ./mjsim.py --load_model /home/username/.../policy/walk_model_jit.pt
+        ./mjsim.py gr1t2 --load_model /home/username/.../policy/walk_model_jit.pt
         ```
-    You can modify the model parameters in `gr1t1_lower_limb.xml` and `robot_config`.
+    You can modify the model parameters in `gr1tx_lower_limb.xml` and `robot_config`.
 
 
 
