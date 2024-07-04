@@ -1,7 +1,6 @@
 <mujoco model="gr1t1">
     <compiler angle="radian" meshdir="assets" autolimits="true"/>
         <option timestep='0.001' iterations='20' solver='PGS' gravity='0 0 -9.81' apirate='1000'>
-        
         </option>
         <size njmax="500" nconmax="100" />
 
@@ -12,7 +11,6 @@
 
        <default>
         <default class="gr1t1">
-        
             <joint damping="1" armature="0.1"/>
             
             <default class="visual">
@@ -315,15 +313,9 @@
         <!--position class="gr1t1" name="link_right_ankle_roll" joint="joint_right_ankle_roll" gear="1" ctrllimited="true" ctrlrange="-8 8"/-->
     </actuator>
     <sensor>
-        
-        
         <framequat     name='orientation' objtype='site' objname='imu'/>
-        
         <gyro          name='angular-velocity'    site='imu'  cutoff='34.9'/>
-        
         <accelerometer name='linear-acceleration' site='imu'  cutoff='157'/>
-        
-
     </sensor>
 
 </mujoco>

@@ -71,6 +71,9 @@ This repository provides an environment used to test the RL policy trained in NV
         ```
     You can modify the model parameters in `gr1tx_lower_limb.xml` and `robot_config`.
 
+    3. Control the robot by keyboard
+        After simulation started, you can press `.` to let the robot stand and press `/` to let the robot walk!
+
 
 
 Thank you for your interest in the Fourier Intelligence GRx Robot Repositories.

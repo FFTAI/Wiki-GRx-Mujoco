@@ -1,4 +1,3 @@
-
 import numpy as np
 import mujoco
 import mujoco_viewer
@@ -7,13 +6,15 @@ from run.robots.robot_config.GR1_mj_config import GR1T1LowerLimbCfg
 from run.robots.robot_config.GR2_mj_config import GR1T2LowerLimbCfg
 import torch
 import argparse
+from pynput import keyboard
 
+# Define the cmd class
 class cmd:
     vx = 0.2
     vy = 0
     dyaw = 0
 
-
+# Function to rotate quaternion inversely
 def quat_rotate_inverse(q, v):
     shape = q.shape
     q_w = q[:, -1]
@@ -23,6 +24,7 @@ def quat_rotate_inverse(q, v):
     c = q_vec * torch.bmm(q_vec.view(shape[0], 1, 3), v.view(shape[0], 3, 1)).squeeze(-1) * 2.0
     return a - b + c
 
+# Function to get observation data
 def get_obs(data):
     q = data.qpos.astype(np.double)
     dq = data.qvel.astype(np.double)
@@ -30,21 +32,12 @@ def get_obs(data):
     omega = data.sensor('angular-velocity').data.astype(np.double)
     return (q, dq, quat, omega)
 
-
+# Function for PD control
 def pd_control(target_q, q, kp, target_dq, dq, kd):
     return (target_q - q) * kp + (target_dq - dq) * kd
 
+# Function to run the Mujoco simulation
 def run_mujoco(policy, cfg):
-    """
-    Run the Mujoco simulation using the provided policy and configuration.
-
-    Args:
-        policy (torch.nn.Module): The policy network used to generate actions.
-        cfg (object): The configuration object containing simulation and environment settings.
-
-    Returns:
-        None
-    """
     model = mujoco.MjModel.from_xml_path(cfg.sim_config.mujoco_model_path)
     model.opt.timestep = cfg.sim_config.dt
     data = mujoco.MjData(model)
@@ -56,6 +49,23 @@ def run_mujoco(policy, cfg):
 
     count_lowlevel = 0
     gvec_tensor = torch.tensor([[0, 0, -1]], dtype=torch.float32)
+    
+    # Listener setup
+    def on_press(key):
+        nonlocal policy
+        try:
+            if key.char == '.':
+                policy = torch.jit.load('../policy/stand_model_jit.pt')
+            elif key.char == '/':
+                policy = torch.jit.load('../policy/walk_model_jit.pt')
+            elif key.char == '0':
+                return False  # Stop the listener
+        except AttributeError:
+            pass
+
+    listener = keyboard.Listener(on_press=on_press)
+    listener.start()
+    
     for _ in tqdm(range(int(cfg.sim_config.sim_duration / cfg.sim_config.dt)), desc="Simulating..."):
         q, dq, quat, omega = get_obs(data)
         q = q[-cfg.env.num_actions:]
@@ -109,12 +119,10 @@ def run_mujoco(policy, cfg):
         mujoco.mj_step(model, data)
         viewer.render()
         count_lowlevel += 1
-
     viewer.close()
-
+    listener.stop()  # Ensure the listener is stopped after the simulation ends
 
 if __name__ == '__main__':
-
     parser = argparse.ArgumentParser(description='Deployment script.')
     parser.add_argument('robot_id', type=str, help='Path to the model to load.')
     parser.add_argument('--load_model', type=str, required=True, help='Run to load from.')
@@ -126,14 +134,11 @@ if __name__ == '__main__':
         RobotConfig = GR1T2LowerLimbCfg
 
     class Sim2simCfg(RobotConfig):
-
         class sim_config:
             mujoco_model_path = f'../robots/{args.robot_id}/scene.xml'
-            
             sim_duration = 70.0
             dt = 0.001
             decimation = 20
-
     
     policy = torch.jit.load(args.load_model)
     run_mujoco(policy, Sim2simCfg())

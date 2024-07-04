@@ -14,5 +14,6 @@ setup(
         "numpy>=1.20.0",
         "torch>=2.3.1",
         "tqdm"
+        "pynput",
     ]
 )
