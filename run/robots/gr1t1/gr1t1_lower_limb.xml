@@ -1,6 +1,6 @@
 <mujoco model="gr1t1">
     <compiler angle="radian" meshdir="assets" autolimits="true"/>
-        <option timestep='1' iterations='20' solver='PGS' gravity='0 0 -9.81' apirate='1000'>
+        <option timestep='0.001' iterations='20' solver='PGS' gravity='0 0 -9.81' apirate='1000'>
         
         </option>
         <size njmax="500" nconmax="100" />
@@ -10,12 +10,11 @@
             <map znear='0.05'/>
         </visual>
 
-        <default>
-            <joint limited='true'/>
-            <motor ctrllimited='true'/>
-            <default class="gr1t1">
-                <joint armature="0.1"/>
-            </default>
+       <default>
+        <default class="gr1t1">
+        
+            <joint damping="1" armature="0.1"/>
+            
             <default class="visual">
                 <geom type="mesh" contype="0" conaffinity="0" group="2"/>
             </default>
@@ -25,8 +24,9 @@
                     <geom type="capsule" size=".014"/>
                 </default>
             </default>
-            
+            <site size="0.001" rgba="0.5 0.5 0.5 0.3" group="4"/>
         </default>
+    </default>
         
 
     <asset>
@@ -290,8 +290,9 @@
                         </body>
                     </body>
                 </body>
-            <body name="imu" pos="-0.0645 0 -0.102" />
-                <site name='imu' size='0.05 0.05 0.02' pos='-0.0648 0 -0.1015' quat="0.7071068 0.7071068 0 0"/>
+            
+            <site name='imu' size='0.05 0.05 0.02' pos='-0.0648 0 -0.1015'/>
+            <body/>
             </body>
         </body>
     </worldbody>

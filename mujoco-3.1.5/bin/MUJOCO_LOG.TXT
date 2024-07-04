@@ -9131,3 +9131,15 @@ WARNING: mj_model->nu: 10
 Mon May 27 08:47:35 2024
 WARNING: mj_model->nv: 16
 
+Thu Jul  4 09:17:37 2024
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 11.0000.
+
+Thu Jul  4 09:18:35 2024
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 18.0000.
+
+Thu Jul  4 09:18:49 2024
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 18.0000.
+
+Thu Jul  4 09:22:39 2024
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 18.0000.
+

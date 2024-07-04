@@ -9,7 +9,7 @@ import torch
 import argparse
 
 class cmd:
-    vx = 0
+    vx = 0.2
     vy = 0
     dyaw = 0
 

@@ -4,6 +4,7 @@
     <default>
         <default class="gr1t1">
             <joint damping="1" armature="0.1"/>
+            
             <default class="visual">
                 <geom type="mesh" contype="0" conaffinity="0" group="2"/>
             </default>
