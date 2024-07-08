@@ -72,16 +72,6 @@
             
             <geom class="visual" rgba="0.752941 0.752941 0.752941 1" mesh="base"/>
 
-            <!-- same controling method with imu -->
-            <joint name="pelvis_tx" type="slide" pos="0 0 0" axis="       1        0        0" limited="false" range="      -500        500" ref="0" armature="0" damping="0" stiffness="0"></joint>
-            <joint name="pelvis_tz" type="slide" pos="0 0 0" axis="       0        1        0" limited="false" range="      -300        300" ref="0" armature="0" damping="0" stiffness="0"></joint>
-            <joint name="pelvis_ty" type="slide" pos="0 0 0" axis="       0        0        1" limited="false" range="      -100        200" ref="0" armature="0" damping="0" stiffness="0"></joint>
-            <joint name="pelvis_tilt" type="hinge" pos="0 0 0" axis="       0        -1        0" limited="false" range=" -1.5708   1.5708" ref="0" armature="0" damping="0" stiffness="0"></joint>
-            <joint name="pelvis_list" type="hinge" pos="0 0 0" axis="       1        0        0" limited="false" range=" -1.5708   1.5708" ref="0" armature="0" damping="0" stiffness="0"></joint>
-            <joint name="pelvis_rotation" type="hinge" pos="0 0 0" axis="       0        0        1" limited="false" range=" -1.5708   1.5708" ref="0" armature="0" damping="0" stiffness="0"></joint>
-
-
-
             <body name="link_left_thigh_roll" pos="-0.047999 0.105 -0.057493">
                 <inertial pos="0.04163 3.4568e-05 -0.0021382" quat="0.575529 0.581908 -0.40597 0.406619" mass="1.1437" diaginertia="0.00117548 0.00100413 0.000943892"/>
                 <joint name="joint_left_hip_roll" pos="0 0 0" axis="1 0 0" range="-0.09 0.79" stiffness="251.625" damping="14.72"/>
@@ -336,7 +326,7 @@
         <motor class="gr1t1" name="link_head_yaw" joint="joint_head_yaw" ctrlrange="-10.2 10.2"/>
         <motor class="gr1t1" name="link_head_roll" joint="joint_head_roll" ctrlrange="-3.95 3.95"/>
         <motor class="gr1t1" name="link_head_pitch" joint="joint_head_pitch" ctrlrange="-3.95 3.95"/>
-        
+
         <!-- left arm -->
         <position class="gr1t1" name="link_left_shoulder_pitch" joint="joint_left_shoulder_pitch" ctrllimited="true" ctrlrange="-2.79 1.92" forcerange="-38 38" kp="92.85" kv="2.575"/>
         <position class="gr1t1" name="link_left_shoulder_roll" joint="joint_left_shoulder_roll" ctrllimited="true" ctrlrange="-0.57 3.27" forcerange="-38 38" kp="92.85" kv="2.575"/>
