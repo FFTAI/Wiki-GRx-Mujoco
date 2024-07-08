@@ -1,6 +1,7 @@
 <mujoco model="gr1t2 scene">
-    <include file="gr1t2_lower_limb.xml"/>
 
+    <include file="gr1t2_lower_limb.xml"/>
+    
     <statistic center="0 0 1" extent="1.8"/>
 
     <visual>
