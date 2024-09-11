@@ -11,3 +11,4 @@ Requires-Dist: matplotlib>=3.7.5
 Requires-Dist: numpy>=1.20.0
 Requires-Dist: torch>=2.3.1
 Requires-Dist: tqdm
+Requires-Dist: pynput

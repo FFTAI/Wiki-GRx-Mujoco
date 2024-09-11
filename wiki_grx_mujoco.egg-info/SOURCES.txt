@@ -3,6 +3,7 @@ setup.py
 run/rl/rl_actor_critic_mlp.py
 run/rl/rl_mlp.py
 run/robots/robot_config/GR1_mj_config.py
+run/robots/robot_config/GR2_mj_config.py
 run/scripts/mjsim.py
 run/scripts/utils.py
 wiki_grx_mujoco.egg-info/PKG-INFO

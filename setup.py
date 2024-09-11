@@ -13,7 +13,7 @@ setup(
         "matplotlib>=3.7.5",
         "numpy>=1.20.0",
         "torch>=2.3.1",
-        "tqdm"
+        "tqdm",
         "pynput",
     ]
 )
