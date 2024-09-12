@@ -50,7 +50,7 @@
     <mesh name="left_hand_yaw_link" file="left_hand_yaw_link.STL" />
     <mesh name="left_hand_roll_link" file="left_hand_roll_link.STL" />
     <mesh name="left_hand_pitch_link" file="left_hand_pitch_link.STL" />
-    <mesh name="l_hand_base_link" file="fourier_hand/base_link_l.STL" />
+    <mesh name="l_hand_base_link" file="fourier_hand/l_hand_base_link.STL" />
     <mesh name="L_thumb_proximal_base" file="fourier_hand/L_thumb_proximal_base.STL" />
     <mesh name="L_thumb_proximal" file="fourier_hand/L_thumb_proximal.STL" />
     <mesh name="L_thumb_distal" file="fourier_hand/L_thumb_distal.STL" />
@@ -69,7 +69,7 @@
     <mesh name="right_hand_yaw_link" file="right_hand_yaw_link.STL" />
     <mesh name="right_hand_roll_link" file="right_hand_roll_link.STL" />
     <mesh name="right_hand_pitch_link" file="right_hand_pitch_link.STL" />
-    <mesh name="r_hand_base_link" file="fourier_hand/base_link_r.STL" />
+    <mesh name="r_hand_base_link" file="fourier_hand/r_hand_base_link.STL" />
     <mesh name="R_thumb_proximal_base" file="fourier_hand/R_thumb_proximal_base.STL" />
     <mesh name="R_thumb_proximal" file="fourier_hand/R_thumb_proximal.STL" />
     <mesh name="R_thumb_distal" file="fourier_hand/R_thumb_distal.STL" />
@@ -88,7 +88,7 @@
   </asset>
 
   <worldbody>
-    <light mode="targetbodycom" target="base" pos="2 0 2.5"/>
+    <light mode="targetbodycom" target="base_link" pos="2 0 2.5"/>
     <body name="base_link" pos="0 0 0.93" childclass="gr1t2">
       <inertial pos="-0.06032 -9.9e-05 -0.008574" quat="0.331555 0.331512 -0.624709 0.624428" mass="3.96" diaginertia="0.0440404 0.0397397 0.01336" />
       <freejoint/>
