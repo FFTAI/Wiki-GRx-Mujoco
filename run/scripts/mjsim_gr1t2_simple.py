@@ -131,8 +131,8 @@ def run_mujoco(policy, cfg):
             obs[0, 9] = q_joint[12] # joint_waist_yaw
             obs[0, 10:14] = q_joint[13:17] # left_arm
             obs[0, 14:18] = q_joint[17:21] # right_arm
-            obs[0, 18:24] = q_joint[0:7] # left_leg
-            obs[0, 24:30] = q_joint[7:12] # right_leg
+            obs[0, 18:24] = q_joint[0:6] # left_leg
+            obs[0, 24:30] = q_joint[6:12] # right_leg
 
             # velocity
             obs[0, 30] = dq_joint[12] # joint_waist_yaw
