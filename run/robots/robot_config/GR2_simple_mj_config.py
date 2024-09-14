@@ -4,8 +4,8 @@ class GR1T2SimpleCfg():
     class env:
         num_pri_obs = 168  
         num_actions = 21
-        num_single_obs = 75
-        num_observations = 75
+        num_single_obs = 72
+        num_observations = 432
 
     class control:
         action_scale = 1.0
@@ -69,7 +69,7 @@ class GR1T2SimpleCfg():
             -0.09, -0.7, -1.75, -0.09, -1.05, -0.44, # left leg
             -0.79, -0.7, -1.75, -0.09, -1.05, -0.44, # right leg
             -1.05, # waist_yaw
-            -2.79, -0.57, -2.97, -2.27 # left_arm
+            -2.79, -0.57, -2.97, -2.27, # left_arm
             -2.79, -3.27, -2.97, -2.27 # right_arm
         ])
 
