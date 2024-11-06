@@ -8,6 +8,8 @@ from run.robots.robot_config.GR2_simple_mj_config import GR1T2SimpleCfg
 import torch
 import argparse
 from pynput import keyboard
+from collections import deque
+from scipy.spatial.transform import Rotation as R
 
 # Define the cmd class
 class cmd:
@@ -29,9 +31,11 @@ def quat_rotate_inverse(q, v):
 def get_obs(data):
     q = data.qpos.astype(np.double)
     dq = data.qvel.astype(np.double)
-    quat = data.sensor('orientation').data.astype(np.double)
+    quat = data.sensor('orientation').data[[1, 2, 3, 0]].astype(np.double) # x, y, z, w
+    r = R.from_quat(quat)
+    gvec = r.apply(np.array([0, 0, -1]), inverse=True).astype(np.double)
     omega = data.sensor('angular-velocity').data.astype(np.double)
-    return (q, dq, quat, omega)
+    return (q, dq, quat, omega, gvec)
 
 # Function for PD control
 def pd_control(target_q, q, kp, target_dq, dq, kd):
@@ -46,117 +50,81 @@ def run_mujoco(policy, cfg):
     viewer = mujoco_viewer.MujocoViewer(model, data)
 
     target_q = np.zeros((cfg.env.num_actions), dtype=np.double)
+    target_dq = np.zeros((cfg.env.num_actions), dtype=np.double)
     action = np.zeros((cfg.env.num_actions), dtype=np.double)
 
     count_lowlevel = 0
     gvec_tensor = torch.tensor([[0, 0, -1]], dtype=torch.float32)
+    print("gvec_tensor",gvec_tensor)
     init_state = True
     
-    
+
+    policy_input = np.zeros([1, cfg.env.num_observations], dtype=np.float32)
+
+    joint_names = ['l_hip_roll', 'l_hip_yaw', 'l_hip_pitch', 'l_knee_pitch', 'l_ankle_pitch', 'l_ankle_roll',
+                    'r_hip_roll', 'r_hip_yaw', 'r_hip_pitch', 'r_knee_pitch', 'r_ankle_pitch', 'r_ankle_roll',
+                    'joint_waist_yaw',
+                      'l_shoulder_pitch', 'l_shoulder_roll', 'l_shoulder_yaw', 'l_elbow_pitch',
+                    'r_shoulder_pitch', 'r_shoulder_roll', 'r_shoulder_yaw', 'r_elbow_pitch']
+    default_joint_angles = np.array([cfg.init_state.default_joint_angles[name] for name in joint_names])
+    print(default_joint_angles.shape)
+                       
     for _ in tqdm(range(int(cfg.sim_config.sim_duration / cfg.sim_config.dt)), desc="Simulating..."):
         '''
         q: position observation
         dq: speed observation
-        quat: quaternion -> orientation observation, from imu
+        quat: quaternion -> orientation observation, from imu 
         omega: angular velocity observation, from imu
         '''
 
-        q, dq, quat, omega = get_obs(data)
-        # 28,27, 4, 3
+        q, dq, quat, omega, gvec = get_obs(data)
 
-        # for free flyer: q:7, dq:6
-        q_base = q[0:3]
-        dq_base = dq[0:3]
-        quat = q[3:7]
-        omega = dq[3:6]
-        
-        # for rest joint: 21
-        q_joint = q[7:]
-        dq_joint = dq[6:]
+        q_joint = q[7:] - default_joint_angles 
+        dq_joint = dq[6:] 
+        gvec = torch.tensor([gvec], dtype=torch.float32)
 
-        joint_names = ['l_hip_roll',
-                       'l_hip_yaw',
-                       'l_hip_pitch',
-                       'l_knee_pitch',
-                       'l_ankle_pitch',
-                       'l_ankle_roll',
+        if count_lowlevel % cfg.sim_config.decimation == 0:# and count_lowlevel >= 200:
 
-                       'r_hip_roll',
-                       'r_hip_yaw',
-                       'r_hip_pitch',
-                       'r_knee_pitch',
-                       'r_ankle_pitch',
-                       'r_ankle_roll',
+            obs = np.zeros([1, cfg.env.num_single_obs], dtype=np.float32) # 72
 
-                       'joint_waist_yaw',
-
-                       'l_shoulder_pitch',
-                       'l_shoulder_roll',
-                       'l_shoulder_yaw',
-                       'l_elbow_pitch',
-
-                       'r_shoulder_pitch',
-                       'r_shoulder_roll',
-                       'r_shoulder_yaw',
-                       'r_elbow_pitch']
-        
-        default_joint_angles = np.array([cfg.init_state.default_joint_angles[name] for name in joint_names])
-        # default_joint_angles = default_joint_angles[-cfg.env.num_actions:]
-
-        if count_lowlevel % cfg.sim_config.decimation == 0:
-            obs = np.zeros([1, cfg.env.num_single_obs], dtype=np.float32) # 75
-            quat_tensor = torch.tensor([quat], dtype=torch.float32)
-            quat_tensor = quat_tensor[:, [1, 2, 3, 0]]
+            quat_tensor = torch.tensor(np.array([quat]), dtype=torch.float32)
             omega_tensor = torch.tensor([omega], dtype=torch.float32)
-            quat_proj = quat_rotate_inverse(quat_tensor, gvec_tensor)
+
+            quat_proj = quat_rotate_inverse(quat_tensor, gvec_tensor) # xyzw rad
             omega_proj = quat_rotate_inverse(quat_tensor, omega_tensor)
-
-
-            # import pdb 
-            # pdb.set_trace()
 
             obs[0, 0] = cmd.vx
             obs[0, 1] = cmd.vy
             obs[0, 2] = cmd.dyaw
 
-            obs[0, 3:6] = omega_proj # (base angular velocity)
-
-            gravity = model.opt.gravity
-
-            # Gravity components, x, y, z
-            obs[0, 6] = gravity[0] 
-            obs[0, 7] = gravity[1]
-            obs[0, 8] = gravity[2]
-
+            obs[0, 3:6] = np.array(omega) * 0.25 # (base angular velocity)
+            obs[0, 6:9] = np.array(quat_proj[0, :3]) # gravity vector
             # position
-            obs[0, 9] = q_joint[12] # joint_waist_yaw
-            obs[0, 10:14] = q_joint[13:17] # left_arm
-            obs[0, 14:18] = q_joint[17:21] # right_arm
-            obs[0, 18:24] = q_joint[0:6] # left_leg
-            obs[0, 24:30] = q_joint[6:12] # right_leg
+            obs[0, 9] = q_joint[12]         # joint_waist_yaw
+            obs[0, 10:14] = q_joint[13:17]  # left_arm
+            obs[0, 14:18] = q_joint[17:21]  # right_arm
+            obs[0, 18:24] = q_joint[0:6]    # left_leg
+            obs[0, 24:30] = q_joint[6:12]   # right_leg
 
             # velocity
-            obs[0, 30] = dq_joint[12] # joint_waist_yaw
+            obs[0, 30] = dq_joint[12]       # joint_waist_yaw
             obs[0, 31:35] = dq_joint[13:17] # left_arm
             obs[0, 35:39] = dq_joint[17:21] # right_arm
-            obs[0, 39:45] = dq_joint[0:6] # left_leg
-            obs[0, 45:51] = dq_joint[6:12] # right_leg
-
+            obs[0, 39:45] = dq_joint[0:6]   # left_leg
+            obs[0, 45:51] = dq_joint[6:12]  # right_leg
 
             # last_action
-            obs[0, 51] = action[12] # joint_waist_yaw
-            obs[0, 52:56] = action[13:17] # left_arm
-            obs[0, 56:60] = action[17:21] # right_arm
-            obs[0, 60:66] = action[0:6] # left_leg
-            obs[0, 66:72] = action[6:12] # right_leg
+            obs[0, 51] = action[12]         # joint_waist_yaw
+            obs[0, 52:56] = action[13:17]   # left_arm
+            obs[0, 56:60] = action[17:21]   # right_arm
+            obs[0, 60:66] = action[0:6]     # left_leg
+            obs[0, 66:72] = action[6:12]    # right_leg
 
+            # clip 
+            # obs = np.clip(obs, -cfg.normalization.clip_observations, cfg.normalization.clip_observations)
 
-
-            obs = np.clip(obs, -cfg.normalization.clip_observations, cfg.normalization.clip_observations)
-
-            policy_input = np.zeros([1, cfg.env.num_observations], dtype=np.float32)
             if init_state:
-                import pdb
+                # import pdb
                 # pdb.set_trace()
                 policy_input[0, 0:cfg.env.num_single_obs] = obs[0, :cfg.env.num_single_obs]
                 policy_input[0, cfg.env.num_single_obs:cfg.env.num_single_obs*2] = obs[0, :cfg.env.num_single_obs]
@@ -165,15 +133,24 @@ def run_mujoco(policy, cfg):
                 policy_input[0, cfg.env.num_single_obs*4:cfg.env.num_single_obs*5] = obs[0, :cfg.env.num_single_obs]
                 policy_input[0, cfg.env.num_single_obs*5:cfg.env.num_single_obs*6] = obs[0, :cfg.env.num_single_obs]
                 init_state = False
-            policy_input[0, :cfg.env.num_single_obs] = obs[0, :cfg.env.num_single_obs]
 
-            action[:] = policy.forward(torch.tensor(policy_input))[0].detach().numpy()
+            policy_input[0] = torch.cat((torch.tensor(policy_input[0, cfg.env.num_single_obs:], dtype=torch.float32), torch.tensor(obs[0], dtype=torch.float32)), dim=0)
+            # policy
+            action[:] = policy(torch.tensor(policy_input))[0].detach().numpy()
+            print("action",action)
             action = np.clip(action, cfg.normalization.clip_actions_min, cfg.normalization.clip_actions_max)
+            # 
+            action_mujoco = np.zeros_like(action)
+            action_mujoco[0:6] = action[9:15]
+            action_mujoco[6:12] = action[15:21]
+            action_mujoco[12]   = action[0]
+            action_mujoco[13:17] = action[1:5]
+            action_mujoco[17:21] = action[5:9]
 
-            target_q = (action + default_joint_angles) * cfg.control.action_scale
-            
-        # pdb.set_trace()
-        tau = (target_q - q_joint) * cfg.RobotConfig.kps - dq_joint * cfg.RobotConfig.kds
+            target_q = action_mujoco * cfg.control.action_scale +  default_joint_angles
+
+        tau = pd_control(target_q, q_joint, cfg.RobotConfig.kps,
+                    target_dq, dq_joint, cfg.RobotConfig.kds)  # Calc torques
         tau = np.clip(tau, -cfg.RobotConfig.tau_limit, cfg.RobotConfig.tau_limit)
         data.ctrl = tau
 
@@ -185,8 +162,8 @@ def run_mujoco(policy, cfg):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Deployment script.')
-    parser.add_argument('robot_id', type=str, help='Path to the model to load.')
-    parser.add_argument('--load_model', type=str, required=True, help='Run to load from.')
+    parser.add_argument('--robot_id', type=str, help='Path to the model to load.',default='gr1t2_simple')
+    parser.add_argument('--load_model', type=str, required=True, help='Run to load from.',default="../policy/policy_3000.pt")
     parser.add_argument('--terrain', action='store_true', help='terrain or plane')
     args = parser.parse_args()
     if args.robot_id == 'gr1t1':
@@ -200,8 +177,8 @@ if __name__ == '__main__':
         class sim_config:
             mujoco_model_path = f'../robots/{args.robot_id}/scene.xml'
             sim_duration = 70.0
-            dt = 0.001
-            decimation = 20
+            dt = 0.005 #0.001
+            decimation = 4 #10
     
     policy = torch.jit.load(args.load_model)
     run_mujoco(policy, Sim2simCfg())

@@ -5,10 +5,11 @@ class GR1T2SimpleCfg():
         num_pri_obs = 168  
         num_actions = 21
         num_single_obs = 72
+        frame_stack = 6
         num_observations = 432
 
     class control:
-        action_scale = 1.0
+        action_scale = 0.25
         # PD Drive parameters:
         stiffness = {
             'hip_roll': 251.625, 'hip_yaw': 362.52, 'hip_pitch': 200,
@@ -61,14 +62,14 @@ class GR1T2SimpleCfg():
         actions_max = np.array([
             0.79, 0.7, 0.7, 1.92, 0.52, 0.44,  # left leg
             0.09, 0.7, 0.7, 1.92, 0.52, 0.44,  # right leg
-            1.05, # waist yaw
+            0., # 1.05, # waist yaw
             1.92, 3.27, 2.97, 2.27, # left_arm
             1.92, 0.57, 2.97, 2.27 # right_arm
         ])
         actions_min = np.array([
             -0.09, -0.7, -1.75, -0.09, -1.05, -0.44, # left leg
             -0.79, -0.7, -1.75, -0.09, -1.05, -0.44, # right leg
-            -1.05, # waist_yaw
+            0., # -1.05, # waist_yaw
             -2.79, -0.57, -2.97, -2.27, # left_arm
             -2.79, -3.27, -2.97, -2.27 # right_arm
         ])

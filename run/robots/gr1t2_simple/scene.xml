@@ -22,7 +22,7 @@
         <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"/>
     </worldbody>
 
-    <keyframe>
+    <!-- <keyframe> -->
     <!-- base (x, y, z, orientation as quaternion) -->
     <!-- left leg (hip roll, hip yaw, hip pitch, knee, ankle pitch, ankle roll) -->
     <!-- right leg (hip roll, hip yaw, hip pitch, knee, ankle pitch, ankle roll) -->
@@ -33,7 +33,7 @@
     <!-- right hand (thumb, index, middle, ring, pinky) -->
     <!-- head (roll, pitch, yaw) -->
 
-        <key name="home" qpos="
+        <!-- <key name="home" qpos="
             0 0 0  0 0 0 1   
             0 0 0 0 0 0      
             0 0 0 0 0 0      
@@ -41,5 +41,6 @@
             0 0 0 0   
             0 0 0 0
             "/>
-        </keyframe>
+    </keyframe> -->
+    <option gravity="0 0 -9.81" />
 </mujoco>

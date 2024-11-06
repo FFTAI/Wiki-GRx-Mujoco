@@ -7,7 +7,7 @@
     <default class="gr1t2_simple">
       
       <!-- Joint properties-->
-      <joint damping="1.0" armature="0.1" frictionloss="0.5"/>
+      <joint damping="0.5" armature="0.1" frictionloss="0.01"/>
 
       <!-- Visual geometry class (used for both visual and inertia calculation) -->
       <default class="visual">
@@ -70,7 +70,7 @@
 
   <worldbody>
     <light mode="targetbodycom" target="base" pos="2 0 2.5"/>
-    <body name="base" pos="0 0 0.93" childclass='gr1t2_simple' >
+    <body name="base" pos="0 0 1" childclass='gr1t2_simple' >
       <inertial pos="-0.048532 -0.00089322 -0.032851" quat="0.359123 0.355323 -0.61214 0.608326" mass="4.9859" diaginertia="0.0502243 0.0443403 0.0167704" />
       <geom mesh='base' class='visual' />
       <freejoint />
@@ -301,48 +301,48 @@
 
   <actuator>
     <!-- left leg -->
-    <position name="l_hip_roll" joint="l_hip_roll" kp="80" kv="8"/>
-    <position name="l_hip_yaw" joint="l_hip_yaw" kp="60" kv="6"/>
-    <position name="l_hip_pitch" joint="l_hip_pitch" kp="160" kv="16"/>
-    <position name="l_knee_pitch" joint="l_knee_pitch" kp="160" kv="16"/>
-    <position name="l_ankle_pitch" joint="l_ankle_pitch" kp="16" kv="1.6"/>
-    <position name="l_ankle_roll" joint="l_ankle_roll" kp="8" kv="0.8"/>
+    <motor class="gr1t2_simple" name="l_hip_roll" joint="l_hip_roll" ctrlrange="-80 80"/>
+    <motor class="gr1t2_simple" name="l_hip_yaw" joint="l_hip_yaw" ctrlrange="-60 60"/>
+    <motor class="gr1t2_simple" name="l_hip_pitch" joint="l_hip_pitch" ctrlrange="-160 160"/>
+    <motor class="gr1t2_simple" name="l_knee_pitch" joint="l_knee_pitch" ctrlrange="-160 160"/>
+    <motor class="gr1t2_simple" name="l_ankle_pitch" joint="l_ankle_pitch" ctrlrange="-16 16"/>
+    <motor class="gr1t2_simple" name="l_ankle_roll" joint="l_ankle_roll" ctrlrange="-8 8"/>
 
     <!-- right leg -->
-    <position name="r_hip_roll" joint="r_hip_roll" kp="80" kv="8"/>
-    <position name="r_hip_yaw" joint="r_hip_yaw" kp="60" kv="6"/>
-    <position name="r_hip_pitch" joint="r_hip_pitch" kp="160" kv="16"/>
-    <position name="r_knee_pitch" joint="r_knee_pitch" kp="160" kv="16"/>
-    <position name="r_ankle_pitch" joint="r_ankle_pitch" kp="16" kv="1.6"/>
-    <position name="r_ankle_roll" joint="r_ankle_roll" kp="8" kv="0.8"/>
+    <motor class="gr1t2_simple" name="r_hip_roll" joint="r_hip_roll" ctrlrange="-80 80"/>
+    <motor class="gr1t2_simple" name="r_hip_yaw" joint="r_hip_yaw" ctrlrange="-60 60"/>
+    <motor class="gr1t2_simple" name="r_hip_pitch" joint="r_hip_pitch" ctrlrange="-160 160"/>
+    <motor class="gr1t2_simple" name="r_knee_pitch" joint="r_knee_pitch" ctrlrange="-160 160"/>
+    <motor class="gr1t2_simple" name="r_ankle_pitch" joint="r_ankle_pitch" ctrlrange="-16 16"/>
+    <motor class="gr1t2_simple" name="r_ankle_roll" joint="r_ankle_roll" ctrlrange="-8 8"/>
 
     <!-- waist -->
-    <position name="waist_yaw" joint="joint_waist_yaw" kp="82.5" kv="8.25"/>
-    <!-- <position name="waist_pitch" joint="waist_pitch" kp="82.5" kv="8.25"/>
-    <position name="waist_roll" joint="waist_roll" kp="82.5" kv="8.25"/> -->
+    <motor class="gr1t2_simple" name="waist_yaw" joint="joint_waist_yaw" ctrlrange="-82.5 82.5"/>
+    <!-- <motor class="gr1t2_simple" name="link_waist_pitch" joint="joint_waist_pitch" ctrlrange="-82.5 82.5"/>
+    <motor class="gr1t2_simple" name="link_waist_roll" joint="joint_waist_roll" ctrlrange="-82.5 82.5"/> -->
 
     <!-- head -->
-    <!-- <position name="head_yaw" joint="head_yaw" kp="10.2" kv="1.02"/>
-    <position name="head_roll" joint="head_roll" kp="3.95" kv="0.395"/>
-    <position name="head_pitch" joint="head_pitch" kp="3.95" kv="0.395"/> -->
+    <!-- <motor class="gr1t2_simple" name="link_head_yaw" joint="joint_head_yaw" ctrlrange="-10.2 10.2"/>
+    <motor class="gr1t2_simple" name="link_head_roll" joint="joint_head_roll" ctrlrange="-3.95 3.95"/>
+    <motor class="gr1t2_simple" name="link_head_pitch" joint="joint_head_pitch" ctrlrange="-3.95 3.95"/> -->
 
     <!-- left arm -->
-    <position name="l_shoulder_pitch" joint="l_shoulder_pitch" kp="38" kv="3.8"/>
-    <position name="l_shoulder_roll" joint="l_shoulder_roll" kp="38" kv="3.8"/>
-    <position name="l_shoulder_yaw" joint="l_shoulder_yaw" kp="30" kv="3"/>
-    <position name="l_elbow_pitch" joint="l_elbow_pitch" kp="30" kv="3"/>
-    <!-- <position name="l_wrist_yaw" joint="l_wrist_yaw" kp="10.2" kv="1.02"/>
-    <position name="l_wrist_roll" joint="l_wrist_roll" kp="3.95" kv="0.395"/>
-    <position name="l_wrist_pitch" joint="l_wrist_pitch" kp="3.95" kv="0.395"/> -->
+    <motor class="gr1t2_simple" name="l_shoulder_pitch" joint="l_shoulder_pitch" ctrlrange="-38 38"/>
+    <motor class="gr1t2_simple" name="l_shoulder_roll" joint="l_shoulder_roll" ctrlrange="-38 38"/>
+    <motor class="gr1t2_simple" name="l_shoulder_yaw" joint="l_shoulder_yaw" ctrlrange="-30 30"/>
+    <motor class="gr1t2_simple" name="l_elbow_pitch" joint="l_elbow_pitch" ctrlrange="-30 30"/>
+    <!-- <motor class="gr1t2_simple" name="link_left_wrist_yaw" joint="joint_left_wrist_yaw" ctrlrange="-10.2 10.2"/>
+    <motor class="gr1t2_simple" name="link_left_wrist_roll" joint="joint_left_wrist_roll" ctrlrange="-3.95 3.95"/>
+    <motor class="gr1t2_simple" name="link_left_wrist_pitch" joint="joint_left_wrist_pitch" ctrlrange="-3.95 3.95"/> -->
 
     <!-- right arm -->
-    <position name="r_shoulder_pitch" joint="r_shoulder_pitch" kp="38" kv="3.8"/>
-    <position name="r_shoulder_roll" joint="r_shoulder_roll" kp="38" kv="3.8"/>
-    <position name="r_shoulder_yaw" joint="r_shoulder_yaw" kp="30" kv="3"/>
-    <position name="r_elbow_pitch" joint="r_elbow_pitch" kp="30" kv="3"/>
-    <!-- <position name="r_wrist_yaw" joint="r_wrist_yaw" kp="10.2" kv="1.02"/>
-    <position name="r_wrist_roll" joint="r_wrist_roll" kp="3.95" kv="0.395"/>
-    <position name="r_wrist_pitch" joint="r_wrist_pitch" kp="3.95" kv="0.395"/> -->
-</actuator>
+    <motor class="gr1t2_simple" name="r_shoulder_pitch" joint="r_shoulder_pitch" ctrlrange="-38 38"/>
+    <motor class="gr1t2_simple" name="r_shoulder_roll" joint="r_shoulder_roll" ctrlrange="-38 38"/>
+    <motor class="gr1t2_simple" name="r_shoulder_yaw" joint="r_shoulder_yaw" ctrlrange="-30 30"/>
+    <motor class="gr1t2_simple" name="r_elbow_pitch" joint="r_elbow_pitch" ctrlrange="-30 30"/>
+    <!-- <motor class="gr1t2_simple" name="link_right_wrist_yaw" joint="joint_right_wrist_yaw" ctrlrange="-10.2 10.2"/>
+    <motor class="gr1t2_simple" name="link_right_wrist_roll" joint="joint_right_wrist_roll" ctrlrange="-3.95 3.95"/>
+    <motor class="gr1t2_simple" name="link_right_wrist_pitch" joint="joint_right_wrist_pitch" ctrlrange="-3.95 3.95"/> -->
+  </actuator>
 
 </mujoco>
