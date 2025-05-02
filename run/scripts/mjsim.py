@@ -12,9 +12,9 @@ from run.robots.robot_config.GR2_mj_config import GR1T2LowerLimbCfg
 
 # Define the Command class
 class Command:
-    vx = 0.2
-    vy = 0
-    dyaw = 0
+    lin_vel_x = 0.25
+    lin_vel_y = 0
+    ang_vel_yaw = 0
 
 
 # Function to rotate quaternion inversely
@@ -99,28 +99,45 @@ def run_mujoco(robot_cfg, policy) -> None:
         # RL policy
         if decimation_count % robot_cfg.sim_config.decimation == 0:
             obs = numpy.zeros([1, robot_cfg.env.num_single_obs], dtype=numpy.float32)
+
+            # quat: mujoco wxyz -> pytorch xyzw
             quat_tensor = torch.tensor([quat], dtype=torch.float32)
             quat_tensor = quat_tensor[:, [1, 2, 3, 0]]
-            omega_tensor = torch.tensor([omega], dtype=torch.float32)
             quat_proj = quat_rotate_inverse(quat_tensor, gvec_tensor)
+
+            # omega: roll, pitch, yaw
+            omega_tensor = torch.tensor([omega], dtype=torch.float32)
             omega_proj = quat_rotate_inverse(quat_tensor, omega_tensor)
 
+            # q_offset
+            q_offset = (q - default_joint_angles)
+
+            # obs
             obs[0, 0:3] = omega_proj
             obs[0, 3:6] = quat_proj
-            obs[0, 6] = Command.vx
-            obs[0, 7] = Command.vy
-            obs[0, 8] = Command.dyaw
-            obs[0, 9:19] = (q - default_joint_angles) * robot_cfg.normalization.obs_scales.dof_pos
+            obs[0, 6] = Command.lin_vel_x
+            obs[0, 7] = Command.lin_vel_y
+            obs[0, 8] = Command.ang_vel_yaw
+            obs[0, 9:19] = q_offset * robot_cfg.normalization.obs_scales.dof_pos
             obs[0, 19:29] = dq * robot_cfg.normalization.obs_scales.dof_vel
             obs[0, 29:39] = action
 
-            obs = numpy.clip(obs, -robot_cfg.normalization.clip_observations, robot_cfg.normalization.clip_observations)
+            obs = numpy.clip(obs,
+                             -robot_cfg.normalization.clip_observations,
+                             +robot_cfg.normalization.clip_observations)
 
+            # input
             policy_input = numpy.zeros([1, robot_cfg.env.num_observations], dtype=numpy.float32)
             policy_input[0, :robot_cfg.env.num_single_obs] = obs[0, :robot_cfg.env.num_single_obs]
 
-            action[:] = policy.forward(torch.tensor(policy_input))[0].detach().numpy()
-            action = numpy.clip(action, robot_cfg.normalization.clip_actions_min, robot_cfg.normalization.clip_actions_max)
+            # output
+            output = policy.forward(torch.tensor(policy_input))
+
+            # action
+            action[:] = output[0].detach().numpy()
+            action = numpy.clip(action,
+                                robot_cfg.normalization.clip_actions_min,
+                                robot_cfg.normalization.clip_actions_max)
             action_scaled = action * robot_cfg.control.action_scale
 
             target_q = action_scaled + default_joint_angles

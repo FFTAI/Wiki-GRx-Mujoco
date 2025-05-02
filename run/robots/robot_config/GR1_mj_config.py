@@ -1,4 +1,4 @@
-import numpy as np
+import numpy
 
 
 class GR1T1LowerLimbCfg():
@@ -15,29 +15,39 @@ class GR1T1LowerLimbCfg():
         decimation = 20
 
     class RobotConfig:
-        kps = np.array([57, 43, 114, 114, 15.3,
-                        57, 43, 114, 114, 15.3], dtype=np.double)  ##114
-        kds = np.array([5.7, 4.3, 11.4, 11.4, 1.53,
-                        5.7, 4.3, 11.4, 11.4, 1.53], dtype=np.double)
-        tau_limit = np.array([60, 45, 130, 130, 16,
-                              60, 45, 130, 130, 16], dtype=np.double)
+        kps = numpy.array([
+            57, 43, 114, 114, 15.3,
+            57, 43, 114, 114, 15.3,
+        ], dtype=numpy.double)
+        kds = numpy.array([
+            5.7, 4.3, 11.4, 11.4, 1.53,
+            5.7, 4.3, 11.4, 11.4, 1.53,
+        ], dtype=numpy.double)
+        tau_limit = numpy.array([
+            60, 45, 130, 130, 16,
+            60, 45, 130, 130, 16,
+        ], dtype=numpy.double)
         joint_nums = 10
 
     class normalization:
-        actions_max = np.array([
+        actions_max = numpy.array([
             0.79, 0.7, 0.7, 1.92, 0.52,  # left leg
             0.09, 0.7, 0.7, 1.92, 0.52,  # right leg
         ])
-        actions_min = np.array([
+        actions_min = numpy.array([
             -0.09, -0.7, -1.75, -0.09, -1.05,  # left leg
             -0.79, -0.7, -1.75, -0.09, -1.05,  # right leg
         ])
 
         clip_observations = 100.0
-        clip_actions_max = np.array([1.1391, 1.0491, 1.0491, 2.2691, 0.8691,
-                                     0.4391, 1.0491, 1.0491, 2.2691, 0.8691])
-        clip_actions_min = np.array([-0.4391, -1.0491, -2.0991, -0.4391, -1.3991,
-                                     -1.1391, -1.0491, -2.0991, -0.4391, -1.3991])
+        clip_actions_max = numpy.array([
+            1.1391, 1.0491, 1.0491, 2.2691, 0.8691,
+            0.4391, 1.0491, 1.0491, 2.2691, 0.8691,
+        ])
+        clip_actions_min = numpy.array([
+            -0.4391, -1.0491, -2.0991, -0.4391, -1.3991,
+            -1.1391, -1.0491, -2.0991, -0.4391, -1.3991,
+        ])
 
         class obs_scales:
             action = 1.0
