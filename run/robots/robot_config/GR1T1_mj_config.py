@@ -1,7 +1,7 @@
 import numpy
 
 
-class GR1T1LowerLimbCfg():
+class GR1T1LowerLimbCfg:
     class env:
         num_pri_obs = 168  ##
         num_actions = 10
@@ -57,9 +57,9 @@ class GR1T1LowerLimbCfg():
             dof_vel = 1.0
             height_measurements = 1.0
 
-    class init_state():
+    class init_state:
         pos = [0.0, 0.0, 0.95]  # x,y,z [m]
-        
+
         default_joint_angles = {  # = target angles [rad] when action = 0.0
             # left leg
             'l_hip_roll': 0.0,
@@ -82,7 +82,7 @@ class GR1T1LowerLimbCfg():
         def __init__(self, path='./'):
             self.path = path
 
-    class control():
+    class control:
         action_scale = 1.0
         # PD Drive parameters:
         stiffness = {

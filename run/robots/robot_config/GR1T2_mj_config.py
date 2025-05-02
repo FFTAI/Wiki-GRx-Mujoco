@@ -1,7 +1,7 @@
-import numpy as np
+import numpy
 
 
-class GR1T2LowerLimbCfg():
+class GR1T2LowerLimbCfg:
     class env:
         num_pri_obs = 168
         num_actions = 10
@@ -15,33 +15,33 @@ class GR1T2LowerLimbCfg():
         decimation = 20
 
     class RobotConfig:
-        kps = np.array([
+        kps = numpy.array([
             57, 43, 114, 114, 15.3,
             57, 43, 114, 114, 15.3,
-        ], dtype=np.double)
-        kds = np.array([
+        ], dtype=numpy.double)
+        kds = numpy.array([
             5.7, 4.3, 11.4, 11.4, 1.53,
             5.7, 4.3, 11.4, 11.4, 1.53,
-        ], dtype=np.double)
-        tau_limit = np.array([
+        ], dtype=numpy.double)
+        tau_limit = numpy.array([
             60, 45, 130, 130, 16,
             60, 45, 130, 130, 16,
-        ], dtype=np.double)
+        ], dtype=numpy.double)
         joint_nums = 10
 
     class normalization:
-        actions_max = np.array([
+        actions_max = numpy.array([
             0.79, 0.7, 0.7, 1.92, 0.52,  # left leg
             0.09, 0.7, 0.7, 1.92, 0.52,  # right leg
         ])
-        actions_min = np.array([
+        actions_min = numpy.array([
             -0.09, -0.7, -1.75, -0.09, -1.05,  # left leg
             -0.79, -0.7, -1.75, -0.09, -1.05,  # right leg
         ])
 
         clip_observations = 100.0
-        clip_actions_max = actions_max + 60 / 180 * np.pi / 3
-        clip_actions_min = actions_min - 60 / 180 * np.pi / 3
+        clip_actions_max = actions_max + 60 / 180 * numpy.pi / 3
+        clip_actions_min = actions_min - 60 / 180 * numpy.pi / 3
 
         class obs_scales:
             action = 1.0
@@ -51,7 +51,7 @@ class GR1T2LowerLimbCfg():
             dof_vel = 1.0
             height_measurements = 1.0
 
-    class init_state():
+    class init_state:
         pos = [0.0, 0.0, 0.95]  # x,y,z [m]
 
         default_joint_angles = {  # = target angles [rad] when action = 0.0
