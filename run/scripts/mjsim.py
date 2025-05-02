@@ -34,16 +34,14 @@ def get_obs(data):
     dq = data.qvel.astype(numpy.double)
     quat = data.sensor("orientation").data.astype(numpy.double)
     omega = data.sensor("angular-velocity").data.astype(numpy.double)
-    return (q, dq, quat, omega)
-
-
-# Function for PD control
-def pd_control(target_q, q, kp, target_dq, dq, kd):
-    return (target_q - q) * kp + (target_dq - dq) * kd
+    return q, dq, quat, omega
 
 
 # Function to run the Mujoco simulation
-def run_mujoco(robot_cfg, policy) -> None:
+def run_mujoco(
+        robot_cfg,
+        policy,
+) -> None:
     """
     Run Mujoco simulation with the given robot configuration and policy.
 
