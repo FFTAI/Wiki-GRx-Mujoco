@@ -8,11 +8,13 @@ import torch
 import argparse
 from pynput import keyboard
 
+
 # Define the cmd class
 class cmd:
     vx = 0.2
     vy = 0
     dyaw = 0
+
 
 # Function to rotate quaternion inversely
 def quat_rotate_inverse(q, v):
@@ -24,6 +26,7 @@ def quat_rotate_inverse(q, v):
     c = q_vec * torch.bmm(q_vec.view(shape[0], 1, 3), v.view(shape[0], 3, 1)).squeeze(-1) * 2.0
     return a - b + c
 
+
 # Function to get observation data
 def get_obs(data):
     q = data.qpos.astype(np.double)
@@ -32,9 +35,11 @@ def get_obs(data):
     omega = data.sensor('angular-velocity').data.astype(np.double)
     return (q, dq, quat, omega)
 
+
 # Function for PD control
 def pd_control(target_q, q, kp, target_dq, dq, kd):
     return (target_q - q) * kp + (target_dq - dq) * kd
+
 
 # Function to run the Mujoco simulation
 def run_mujoco(policy, cfg):
@@ -49,7 +54,7 @@ def run_mujoco(policy, cfg):
 
     count_lowlevel = 0
     gvec_tensor = torch.tensor([[0, 0, -1]], dtype=torch.float32)
-    
+
     # Listener setup
     def on_press(key):
         nonlocal policy
@@ -65,7 +70,7 @@ def run_mujoco(policy, cfg):
 
     listener = keyboard.Listener(on_press=on_press)
     listener.start()
-    
+
     for _ in tqdm(range(int(cfg.sim_config.sim_duration / cfg.sim_config.dt)), desc="Simulating..."):
         q, dq, quat, omega = get_obs(data)
         q = q[-cfg.env.num_actions:]
@@ -81,7 +86,7 @@ def run_mujoco(policy, cfg):
                        'r_hip_pitch',
                        'r_knee_pitch',
                        'r_ankle_pitch']
-        
+
         default_joint_angles = np.array([cfg.init_state.default_joint_angles[name] for name in joint_names])
         default_joint_angles = default_joint_angles[-cfg.env.num_actions:]
 
@@ -111,7 +116,7 @@ def run_mujoco(policy, cfg):
             action = np.clip(action, cfg.normalization.clip_actions_min, cfg.normalization.clip_actions_max)
 
             target_q = (action + default_joint_angles) * cfg.control.action_scale
-            
+
         tau = (target_q - q) * cfg.RobotConfig.kps - dq * cfg.RobotConfig.kds
         tau = np.clip(tau, -cfg.RobotConfig.tau_limit, cfg.RobotConfig.tau_limit)
         data.ctrl = tau
@@ -121,6 +126,7 @@ def run_mujoco(policy, cfg):
         count_lowlevel += 1
     viewer.close()
     listener.stop()  # Ensure the listener is stopped after the simulation ends
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Deployment script.')
@@ -133,12 +139,14 @@ if __name__ == '__main__':
     elif args.robot_id == 'gr1t2':
         RobotConfig = GR1T2LowerLimbCfg
 
+
     class Sim2simCfg(RobotConfig):
         class sim_config:
             mujoco_model_path = f'../robots/{args.robot_id}/scene.xml'
             sim_duration = 70.0
             dt = 0.001
             decimation = 20
-    
+
+
     policy = torch.jit.load(args.load_model)
     run_mujoco(policy, Sim2simCfg())

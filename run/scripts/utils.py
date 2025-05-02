@@ -1,6 +1,7 @@
 from pynput import keyboard
 import torch
 
+
 # Define the callback functions for key press and release events
 def on_press(key):
     global policy

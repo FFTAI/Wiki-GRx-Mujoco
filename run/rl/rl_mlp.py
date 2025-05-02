@@ -4,14 +4,14 @@ import torch.nn as nn
 
 class MLP(nn.Module):
     def __init__(
-        self,
-        input_size,
-        output_size,
-        hidden_dims=[256, 256, 256],
-        activation="relu",
-        norm="none",
-        requires_grad=True,
-        **kwargs
+            self,
+            input_size,
+            output_size,
+            hidden_dims=[256, 256, 256],
+            activation="relu",
+            norm="none",
+            requires_grad=True,
+            **kwargs
     ):
         super(MLP, self).__init__()
 
