@@ -312,6 +312,7 @@
         <position class="gr1t1" name="link_right_ankle_pitch" joint="joint_right_ankle_pitch" ctrllimited="true" ctrlrange="-1.05 0.52" forcerange="-16 16" kp="15.3" kv="1.5"/>
         <!-- position class="gr1t1" name="link_right_ankle_roll" joint="joint_right_ankle_roll" gear="1" ctrllimited="true" ctrlrange="-8 8"/-->
     </actuator>
+
     <sensor>
         <framequat name='orientation' objtype='site' objname='imu'/>
         <gyro name='angular-velocity' site='imu' cutoff='34.9'/>

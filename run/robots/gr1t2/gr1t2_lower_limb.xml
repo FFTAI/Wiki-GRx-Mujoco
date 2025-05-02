@@ -310,15 +310,9 @@
     </actuator>
 
     <sensor>
-
-
         <framequat name='orientation' objtype='site' objname='imu'/>
-
         <gyro name='angular-velocity' site='imu' cutoff='34.9'/>
-
         <accelerometer name='linear-acceleration' site='imu' cutoff='157'/>
-
-
     </sensor>
 
 </mujoco>
