@@ -100,12 +100,12 @@ def run_mujoco(
             obs = numpy.zeros([1, robot_cfg.env.num_single_obs], dtype=numpy.float32)
 
             # quat: mujoco wxyz -> pytorch xyzw
-            quat_tensor = torch.tensor([quat], dtype=torch.float32)
+            quat_tensor = torch.from_numpy(numpy.array([quat])).float()
             quat_tensor = quat_tensor[:, [1, 2, 3, 0]]
             quat_proj = quat_rotate_inverse(quat_tensor, gvec_tensor)
 
             # omega: roll, pitch, yaw
-            omega_tensor = torch.tensor([omega], dtype=torch.float32)
+            omega_tensor = torch.from_numpy(numpy.array([omega])).float()
             omega_proj = quat_rotate_inverse(quat_tensor, omega_tensor)
 
             # q_offset
