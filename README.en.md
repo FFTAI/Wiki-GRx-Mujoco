@@ -6,8 +6,7 @@
 
 This repository provides the code implementation for RL policy verification and visualization of the Fourier N1 robot based on Mujoco.
 
-> [!Note]
->
+> [!NOTE]
 > Due to version updates of Mujoco, there have been significant changes in its Python development approach. Therefore, it is impossible to ensure compatibility with all versions.  
 > This repository is primarily developed and tested based on the latest Mujoco 3.x.x version.
 

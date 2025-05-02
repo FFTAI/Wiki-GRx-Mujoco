@@ -33,3 +33,5 @@
 
 # python project
 wiki_grx_mujoco.egg-info/
+
+*.pyc
