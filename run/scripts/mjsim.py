@@ -58,14 +58,15 @@ def run_mujoco(
     # Setup the viewer
     viewer = mujoco.viewer.launch_passive(model=model, data=data)
 
-    mujoco.mj_step(model, data)
-
     # Prepare buffers
     target_q = numpy.zeros(robot_cfg.env.num_actions, dtype=numpy.double)
     action = numpy.zeros(robot_cfg.env.num_actions, dtype=numpy.double)
 
     decimation_count = 0
     gvec_tensor = torch.tensor([[0, 0, -1]], dtype=torch.float32)
+
+    # Update the initial position
+    mujoco.mj_step(model, data)
 
     # Calculate the total number of simulation steps
     total_steps = int(robot_cfg.sim_config.sim_duration / robot_cfg.sim_config.dt)
