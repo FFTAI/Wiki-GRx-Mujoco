@@ -1,6 +1,6 @@
 [English](README.en.md) | 简体中文
 
-(`FourierN1` 部份仍处于开发中，尚未完成）
+(`FourierN1` 部份仍处于开发中，尚未完成，本仓库代码尚不可用）
 
 # Wiki-GRx-Mujoco
 
@@ -37,65 +37,14 @@
    pip install -e . -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
    ```
 
-4. 运行脚本
+### 使用说明
+
+1. 启动仿真
    ```
-   python run/scripts/mjsim.py gr1t1 --load_model /home/username/.../policy/stand_model_jit.pt
+   python run/scripts/mjsim.py --robot=gr1t1 --policy=walk_model_jit.pt
    ```
 
-### Install Mujoco and Mujoco-viewer:
+---
 
-    ```
-    pip install mujoco mujoco-python-viewer
-    ```
-    - <https://mujoco.org/>
-    - <https://github.com/google-deepmind/mujoco/releases>
-
-2. Load the models in Mujoco:
-
-   get into the file location:
-   ```
-   ./mujoco-3.1.5/bin/
-   ```
-   and run:
-   ```
-   ./simulate
-   ```
-   and drag the `.xml` file that you want to view in robots folder
-
-### Load trained policies in Mujoco:
-
-1. get into the file location
-     ```bash
-     ./run/scripts
-     ```
-
-2. run the code with proper argument
-     ```bash
-     ./mjsim.py <robot_name> --load_model <path_to_model>
-     ```
-
-   **exmple:**
-
-   load stand policy to control the robot GR1T1 to stand:
-
-     ```bash
-     ./mjsim.py gr1t1 --load_model /home/username/.../policy/stand_model_jit.pt
-     ```
-
-   or load the walk policy to control the robot GR1T2 to walk:
-
-     ```bash
-     ./mjsim.py gr1t2 --load_model /home/username/.../policy/walk_model_jit.pt
-     ```
-
-   You can modify the model parameters in `gr1tx_lower_limb.xml` and `robot_config`.
-
-
-3. Control the robot by keyboard:
-
-   After simulation started, you can press `.` to let the robot stand and press `/` to let the robot walk!
-
-#
-
-Thank you for your interest in the Fourier Intelligence GRx Robot Repositories.
-We hope you find this resource helpful in your robotics projects!
+感谢您对傅利叶智能 N1 机器人项目的关注！
+希望本资源能为您的机器人开发提供有力支持！
