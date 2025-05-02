@@ -20,14 +20,14 @@
     <worldbody>
         <light pos="0 0 3.5" dir="0 0 -1" directional="true"/>
         <geom name="floor" size="20 20 1" type="plane" conaffinity="1" material="MatPlane"/>
-        
     </worldbody>
 
     <keyframe>
         <key name="home"
              qpos="
-    0 0 0
-    0 0 0 0 0 0 0
-    0 0 0 0 0 0 0"/>
+             0 0 0
+             0 0 0 0 0 0 0
+             0 0 0 0 0 0 0"
+        />
     </keyframe>
 </mujoco>

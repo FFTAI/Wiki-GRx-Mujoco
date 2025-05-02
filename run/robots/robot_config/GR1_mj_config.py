@@ -1,7 +1,6 @@
 import numpy as np
 
 
-
 class GR1T1LowerLimbCfg():
     class env:
         num_pri_obs = 168  ##
@@ -10,19 +9,18 @@ class GR1T1LowerLimbCfg():
         num_observations = 39
 
     class SimConfig:
-        #Simulate updaterate 50Hz
+        # Simulate update rate 50Hz
         sim_duration = 50.0
         dt = 0.001
         decimation = 20
-    
-    class RobotConfig:
 
-        kps = np.array([57, 43, 114, 114, 15.3, 
-                            57, 43, 114, 114, 15.3], dtype=np.double)  ##114
-        kds = np.array([5.7, 4.3, 11.4, 11.4, 1.53, 
-                            5.7, 4.3, 11.4, 11.4, 1.53], dtype=np.double)
-        tau_limit = np.array([60, 45, 130, 130, 16, 
-                                60, 45, 130, 130, 16], dtype=np.double)
+    class RobotConfig:
+        kps = np.array([57, 43, 114, 114, 15.3,
+                        57, 43, 114, 114, 15.3], dtype=np.double)  ##114
+        kds = np.array([5.7, 4.3, 11.4, 11.4, 1.53,
+                        5.7, 4.3, 11.4, 11.4, 1.53], dtype=np.double)
+        tau_limit = np.array([60, 45, 130, 130, 16,
+                              60, 45, 130, 130, 16], dtype=np.double)
         joint_nums = 10
 
     class normalization:
@@ -37,9 +35,10 @@ class GR1T1LowerLimbCfg():
 
         clip_observations = 100.0
         clip_actions_max = np.array([1.1391, 1.0491, 1.0491, 2.2691, 0.8691,
-                                        0.4391, 1.0491, 1.0491, 2.2691, 0.8691])
+                                     0.4391, 1.0491, 1.0491, 2.2691, 0.8691])
         clip_actions_min = np.array([-0.4391, -1.0491, -2.0991, -0.4391, -1.3991,
-                                        -1.1391, -1.0491, -2.0991, -0.4391, -1.3991])
+                                     -1.1391, -1.0491, -2.0991, -0.4391, -1.3991])
+
         class obs_scales:
             action = 1.0
             lin_vel = 1.0
@@ -47,8 +46,6 @@ class GR1T1LowerLimbCfg():
             dof_pos = 1.0
             dof_vel = 1.0
             height_measurements = 1.0
-
-        
 
     class init_state():
         pos = [0.0, 0.0, 0.95]  # x,y,z [m]
@@ -59,7 +56,7 @@ class GR1T1LowerLimbCfg():
             'l_hip_pitch': -0.2618,
             'l_knee_pitch': 0.5236,
             'l_ankle_pitch': -0.2618,
-            #'l_ankle_roll': 0.0,
+            # 'l_ankle_roll': 0.0,
 
             # right leg
             'r_hip_roll': 0.0,
@@ -67,7 +64,7 @@ class GR1T1LowerLimbCfg():
             'r_hip_pitch': -0.2618,
             'r_knee_pitch': 0.5236,
             'r_ankle_pitch': -0.2618,
-            #'r_ankle_roll': 0.0,
+            # 'r_ankle_roll': 0.0,
         }
 
     class MujocoModelPath:
@@ -91,4 +88,3 @@ class GR1T1LowerLimbCfg():
             'knee_pitch': stiffness['knee_pitch'] / 10,
             'ankle_pitch': stiffness['ankle_pitch'] / 10,
         }
-        

@@ -3,4 +3,4 @@ torch>=2.3.1
 tqdm
 pynput
 matplotlib>=3.7.5
-mujoco
+mujoco>=3.0.0

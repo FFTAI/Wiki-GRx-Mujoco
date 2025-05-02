@@ -6,6 +6,11 @@
 
 本仓库提供了基于 Mujoco 的 Fourier N1 机器人的 RL 策略验证和可视化的代码实现。
 
+> [!说明]
+>
+> 由于 Mujoco 的版本更新，其 python 开发方式变更较多，因此，不可能做到所有版本都兼容。
+> 本仓库主要基于最新的 Mujoco 3.x.x 版本进行开发和测试。
+
 ### 相关资源
 
 * Mujoco: https://mujoco.org/
@@ -23,13 +28,18 @@
    bash Miniconda3-latest-Linux-x86_64.sh
 
    # 创建训练环境
-   conda create -n wiki-grx-mujoco python=3.8 -y
+   conda create -n wiki-grx-mujoco python=3.11 -y
    conda activate wiki-grx-mujoco
    ```
 
 3. 依赖库安装
    ```
    pip install -e . -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+   ```
+
+4. 运行脚本
+   ```
+   python run/scripts/mjsim.py gr1t1 --load_model /home/username/.../policy/stand_model_jit.pt
    ```
 
 ### Install Mujoco and Mujoco-viewer:
