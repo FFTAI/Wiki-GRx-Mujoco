@@ -59,6 +59,7 @@ class GR1T1LowerLimbCfg():
 
     class init_state():
         pos = [0.0, 0.0, 0.95]  # x,y,z [m]
+        
         default_joint_angles = {  # = target angles [rad] when action = 0.0
             # left leg
             'l_hip_roll': 0.0,

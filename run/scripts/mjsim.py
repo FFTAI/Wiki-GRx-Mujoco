@@ -6,8 +6,8 @@ import tqdm
 import mujoco
 import mujoco.viewer
 
-from run.robots.robot_config.GR1_mj_config import GR1T1LowerLimbCfg
-from run.robots.robot_config.GR2_mj_config import GR1T2LowerLimbCfg
+from run.robots.robot_config.GR1T1_mj_config import GR1T1LowerLimbCfg
+from run.robots.robot_config.GR1T2_mj_config import GR1T2LowerLimbCfg
 
 
 # Define the Command class
@@ -187,7 +187,7 @@ if __name__ == "__main__":
     )
 
 
-    class Sim2simCfg(RobotConfig):
+    class Sim2SimCfg(RobotConfig):
         class sim_config:
             mujoco_model_path = model_path
             sim_duration = 60.0  # seconds
@@ -195,7 +195,7 @@ if __name__ == "__main__":
             decimation = 20  # decimation factor
 
 
-    robot_cfg = Sim2simCfg()
+    robot_cfg = Sim2SimCfg()
 
     # Load the policy
     policy_path = os.path.join(
