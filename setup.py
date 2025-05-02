@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name='wiki-grx-mujoco',
     version='1.0.0',
-    author='Xuanbo',
-    author_email='xuanbo.wang@fftai.com',
+    author='Jason Chen',
+    author_email='xin.chen@fftai.com',
     description='test policy in mujoco env',
     python_requires=">=3.11",
     install_requires=[

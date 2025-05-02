@@ -43,6 +43,20 @@
    python run/scripts/mjsim.py --robot=gr1t1 --policy=walk_model_jit.pt
    ```
 
+### 常见问题
+
+1. MJCF 模型文件构建
+   ```
+   # 参考文档
+   https://docs.kscale.dev/docs/urdf2mjcf
+   
+   # 1. 安装 urdf2mjcf 库
+   pip install urdf2mjcf
+   
+   # 2. 转换 urdf 文件
+   urdf2mjcf /path/to/your/robot.urdf
+   ```
+
 ---
 
 感谢您对傅利叶智能 N1 机器人项目的关注！
