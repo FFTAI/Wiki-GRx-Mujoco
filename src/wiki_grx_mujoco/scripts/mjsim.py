@@ -206,7 +206,9 @@ def run_mujoco(
 
             # PD control
             tau = (target_q - q_dof) * robot_cfg.RobotConfig.kps + (0 - dq_dof) * robot_cfg.RobotConfig.kds
-            tau = numpy.clip(tau, -robot_cfg.RobotConfig.tau_limit, robot_cfg.RobotConfig.tau_limit)
+            tau = numpy.clip(tau,
+                             -robot_cfg.RobotConfig.tau_limit,
+                             +robot_cfg.RobotConfig.tau_limit)
 
             # Apply the control signal (torque control)
             data.ctrl = tau
