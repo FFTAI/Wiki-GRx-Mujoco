@@ -15,6 +15,11 @@ class N1Config:
         num_stack_obs = num_obs * num_stack
         num_actions = 6 + 6 + 1
 
+    class command:
+        lin_vel_x = 0.25
+        lin_vel_y = 0
+        ang_vel_yaw = 0
+
     class robot:
         kps = numpy.array([
             180.0, 120.0, 120.0, 180.0, 45.0, 45.0,  # left leg

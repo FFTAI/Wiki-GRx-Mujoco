@@ -8,12 +8,16 @@ import mujoco.viewer
 
 from wiki_grx_mujoco.config.n1_config import N1Config
 
-
-# Define the Command class
-class Command:
-    lin_vel_x = 0.25
-    lin_vel_y = 0
-    ang_vel_yaw = 0
+# log colors
+WHITE = "\033[97m"
+GRAY = "\033[90m"
+RED = "\033[91m"
+GREEN = "\033[92m"
+YELLOW = "\033[93m"
+BLUE = "\033[94m"
+MAGENTA = "\033[95m"
+CYAN = "\033[96m"
+RESET = "\033[0m"
 
 
 # Function to rotate quaternion inversely
@@ -74,14 +78,87 @@ def run_mujoco(
     mj_joint_names = [model.jnt(i).name for i in range(model.njnt)]
     mj_joint_types = [model.jnt(i).type for i in range(model.njnt)]
 
-    print("#" * 50)
-    print("MUJOCO Joint Sequence and Names:")
+    print(f"{WHITE}##################################################{RESET}")
+    print(f"{WHITE}MUJOCO Joint Sequence and Names: {RESET}")
     for i in range(len(mj_joint_names)):
-        print(f"Joint {i}: {mj_joint_names[i]} {mj_joint_types[i]}")
-    print("#" * 50)
+        print(f"{WHITE}  Joint {i}: {mj_joint_names[i]} {mj_joint_types[i]} {RESET}")
+    print(f"{WHITE}##################################################{RESET}")
+
+    q_base_names = mj_joint_names[0:1]
+    q_dof_names = mj_joint_names[1:]
+
+    q_obs_dof_names = [None] * robot_cfg.observation.num_dofs
+
+    for i in range(robot_cfg.observation.num_dofs):
+        index = robot_cfg.observation.index_dofs[i]
+
+        q_obs_dof_names[i] = q_dof_names[index]
+
+    print(f"{GREEN}##################################################{RESET}")
+    print(f"{GREEN}MUJOCO q_obs_dof_names: {RESET}")
+    for i in range(len(q_obs_dof_names)):
+        print(f"{GREEN}  Joint {i}: {q_obs_dof_names[i]} {RESET}")
+    print(f"{GREEN}##################################################{RESET}")
+
+    q_dof_default = numpy.zeros(robot_cfg.env.num_dofs, dtype=numpy.double)
+    q_obs_dof_default = numpy.zeros(robot_cfg.observation.num_dofs, dtype=numpy.double)
+
+    for name, value in robot_cfg.init_state.default_joint_angles.items():
+        if name in q_dof_names:
+            index = q_dof_names.index(name)
+            q_dof_default[index] = value
+        else:
+            pass
+
+        if name in q_obs_dof_names:
+            index = q_obs_dof_names.index(name)
+            q_obs_dof_default[index] = value
+        else:
+            pass
+
+    print(f"{YELLOW}##################################################{RESET}")
+    print(f"{YELLOW}MUJOCO q_dof_default: {RESET}")
+    for i in range(len(q_dof_default)):
+        print(f"{YELLOW}  Joint {i}: {q_dof_names[i]} {q_dof_default[i]} {RESET}")
+    print(f"{YELLOW}##################################################{RESET}")
+
+    print(f"{YELLOW}##################################################{RESET}")
+    print(f"{YELLOW}MUJOCO q_obs_dof_default: {RESET}")
+    for i in range(len(q_obs_dof_default)):
+        print(f"{YELLOW}  Joint {i}: {q_obs_dof_names[i]} {q_obs_dof_default[i]} {RESET}")
+    print(f"{YELLOW}##################################################{RESET}")
+
+    action_dof_names = [None] * robot_cfg.observation.num_actions
+
+    for i in range(robot_cfg.observation.num_actions):
+        index = robot_cfg.observation.index_actions[i]
+
+        action_dof_names[i] = q_dof_names[index]
+
+    action_scales = numpy.ones(robot_cfg.observation.num_actions, dtype=numpy.double)
+
+    for i in range(robot_cfg.observation.num_actions):
+        index = robot_cfg.observation.index_actions[i]
+
+        q_name = q_dof_names[index]
+
+        for j in range(len(robot_cfg.control.action_names)):
+            action_name = robot_cfg.control.action_names[j]
+
+            if action_name in q_name:
+                action_scales[i] = robot_cfg.control.action_scale[action_name]
+                break
+
+    print(f"{BLUE}##################################################{RESET}")
+    print(f"{BLUE}MUJOCO action info: {RESET}")
+    for i in range(robot_cfg.observation.num_actions):
+        print(f"{BLUE}  Action {i}: {action_dof_names[i]} {action_scales[i]} {RESET}")
+    print(f"{BLUE}##################################################{RESET}")
 
     # Input
     policy_input = numpy.zeros([1, robot_cfg.env.num_stack_obs], dtype=numpy.float32)
+
+    # ----------------------------------------------------------------------------------------------------
 
     # Iterate through each simulation step
     for step in tqdm.tqdm(range(total_steps), desc="Simulating..."):
@@ -89,54 +166,20 @@ def run_mujoco(
         # Retrieve observation data
         q, dq, quat, omega = get_obs(data)
 
-        q_base_names = mj_joint_names[0:1]
         q_base = q[0: 7]  # base_pos, base_quat (wxyz)
         dq_base = dq[0: 6]  # base_vel
 
-        q_dof_names = mj_joint_names[1:]
         q_dof = q[7:]  # dof_pos
         dq_dof = dq[6:]  # dof_vel
 
-        q_obs_dof_names = [""] * robot_cfg.observation.num_dofs
         q_obs_dof = numpy.zeros(robot_cfg.observation.num_dofs, dtype=numpy.double)
         dq_obs_dof = numpy.zeros(robot_cfg.observation.num_dofs, dtype=numpy.double)
 
         for i in range(robot_cfg.observation.num_dofs):
             index = robot_cfg.observation.index_dofs[i]
 
-            q_obs_dof_names[i] = q_dof_names[index]
             q_obs_dof[i] = q_dof[index]
             dq_obs_dof[i] = dq_dof[index]
-
-        q_dof_default = numpy.zeros(robot_cfg.env.num_dofs, dtype=numpy.double)
-        q_obs_dof_default = numpy.zeros(robot_cfg.observation.num_dofs, dtype=numpy.double)
-
-        for name, value in robot_cfg.init_state.default_joint_angles.items():
-            if name in q_dof_names:
-                index = q_dof_names.index(name)
-                q_dof_default[index] = value
-            else:
-                pass
-
-            if name in q_obs_dof_names:
-                index = q_obs_dof_names.index(name)
-                q_obs_dof_default[index] = value
-            else:
-                pass
-
-        action_scales = numpy.ones(robot_cfg.observation.num_actions, dtype=numpy.double)
-
-        for i in range(robot_cfg.observation.num_actions):
-            index = robot_cfg.observation.index_actions[i]
-
-            q_name = q_dof_names[index]
-
-            for j in range(len(robot_cfg.control.action_names)):
-                action_name = robot_cfg.control.action_names[j]
-
-                if action_name in q_name:
-                    action_scales[i] = robot_cfg.control.action_scale[action_name]
-                    break
 
         # RL policy
         if decimation_count % robot_cfg.sim.decimation == 0:
@@ -163,12 +206,12 @@ def run_mujoco(
             # obs
             obs[0, 0: 0 + 3] = omega_proj
             obs[0, 3: 3 + 3] = quat_proj
-            obs[0, 6: 6 + 1] = Command.lin_vel_x
-            obs[0, 7: 7 + 1] = Command.lin_vel_y
-            obs[0, 8: 8 + 1] = Command.ang_vel_yaw
-            obs[0, 9: 9 + 13] = q_obs_dof_offset * robot_cfg.normalization.obs_scales.dof_pos
-            obs[0, 22: 22 + 13] = dq_obs_dof * robot_cfg.normalization.obs_scales.dof_vel
-            obs[0, 35: 35 + 13] = actions
+            obs[0, 6: 6 + 1] = robot_cfg.command.lin_vel_x
+            obs[0, 7: 7 + 1] = robot_cfg.command.lin_vel_y
+            obs[0, 8: 8 + 1] = robot_cfg.command.ang_vel_yaw
+            obs[0, 9 + 0 * robot_cfg.observation.num_dofs: 9 + 1 * robot_cfg.observation.num_dofs] = q_obs_dof_offset * robot_cfg.normalization.obs_scales.dof_pos
+            obs[0, 9 + 1 * robot_cfg.observation.num_dofs: 9 + 2 * robot_cfg.observation.num_dofs] = dq_obs_dof * robot_cfg.normalization.obs_scales.dof_vel
+            obs[0, 9 + 2 * robot_cfg.observation.num_dofs: 9 + 2 * robot_cfg.observation.num_dofs + 1 * robot_cfg.observation.num_actions] = actions
 
             obs = numpy.clip(obs,
                              -robot_cfg.normalization.clip_observations,
@@ -220,6 +263,9 @@ def run_mujoco(
         # Update the decimation count
         decimation_count += 1
 
+    # ----------------------------------------------------------------------------------------------------
+
+    # Close the viewer
     viewer.close()
 
 
