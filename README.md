@@ -1,7 +1,5 @@
 [English](README.en.md) | 简体中文
 
-(`FourierN1` 部份仍处于开发中，尚未完成，本仓库代码尚不可用）
-
 # Wiki-GRx-Mujoco
 
 本仓库提供了基于 Mujoco 的 Fourier N1 机器人的 RL 策略验证和可视化的代码实现。

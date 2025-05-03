@@ -1,7 +1,5 @@
 [简体中文](README.md) | English
 
-(`FourierN1` part is still under development and not yet completed. The code in this repository is not yet usable.)
-
 # Wiki-GRx-Mujoco
 
 This repository provides the code implementation for RL policy verification and visualization of the Fourier N1 robot based on Mujoco.
@@ -12,14 +10,14 @@ This repository provides the code implementation for RL policy verification and 
 
 ### Related Resources
 
-* Mujoco: https://mujoco.org/  
-* PyTorch: https://pytorch.org/  
+* Mujoco: https://mujoco.org/
+* PyTorch: https://pytorch.org/
 
 ### Installation Guide
 
 1. Install Ubuntu 20.04 / Ubuntu 22.04 system.
 
-2. Conda Environment Setup  
+2. Conda Environment Setup
    ```
    # Install Miniconda  
    cd ~/Downloads  
@@ -31,16 +29,16 @@ This repository provides the code implementation for RL policy verification and 
    conda activate wiki-grx-mujoco  
    ```
 
-3. Dependency Installation  
+3. Dependency Installation
    ```
    pip install -e . -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple  
    ```
 
 ### Usage Instructions
 
-1. Launch Simulation  
+1. Launch Simulation
    ```
-   python run/scripts/mjsim.py --robot=gr1t1 --policy=walk_model_jit.pt  
+   python run/scripts/mjsim.py --robot=gr1t1
    ```
 
 ---
