@@ -50,7 +50,7 @@ def run_mujoco(
     """
 
     # Load the Mujoco model
-    model = mujoco.MjModel.from_xml_path(robot_cfg.sim.mujoco_model_path)
+    model = mujoco.MjModel.from_xml_path(robot_cfg.sim.model_path)
     model.opt.timestep = robot_cfg.sim.dt
     data = mujoco.MjData(model)
 
