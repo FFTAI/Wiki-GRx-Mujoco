@@ -192,7 +192,8 @@ def run_mujoco(
 
             # omega: roll, pitch, yaw
             omega_tensor = torch.from_numpy(numpy.array([omega])).float()
-            omega_proj = quat_rotate_inverse(quat_tensor, omega_tensor)
+            # omega_proj = quat_rotate_inverse(quat_tensor, omega_tensor)
+            omega_proj = omega_tensor
 
             # q_obs_dof_offset
             q_obs_dof_offset = (q_obs_dof - q_obs_dof_default)
@@ -247,18 +248,18 @@ def run_mujoco(
             # Clear the decimation count
             decimation_count = 0
 
-            # PD control
-            tau = (target_q - q_dof) * robot_cfg.robot.kps + (0 - dq_dof) * robot_cfg.robot.kds
-            tau = numpy.clip(tau,
-                             -robot_cfg.robot.tau_limit,
-                             +robot_cfg.robot.tau_limit)
+        # PD control
+        tau = (target_q - q_dof) * robot_cfg.robot.kps + (0 - dq_dof) * robot_cfg.robot.kds
+        tau = numpy.clip(tau,
+                         -robot_cfg.robot.tau_limit,
+                         +robot_cfg.robot.tau_limit)
 
-            # Apply the control signal (torque control)
-            data.ctrl = tau
+        # Apply the control signal (torque control)
+        data.ctrl = tau
 
-            # Step the simulation
-            mujoco.mj_step(model, data)
-            viewer.sync()
+        # Step the simulation
+        mujoco.mj_step(model, data)
+        viewer.sync()
 
         # Update the decimation count
         decimation_count += 1
