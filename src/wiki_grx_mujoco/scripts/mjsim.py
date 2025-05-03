@@ -215,8 +215,8 @@ def run_mujoco(
             mujoco.mj_step(model, data)
             viewer.sync()
 
-            # Update the decimation count
-            decimation_count += 1
+        # Update the decimation count
+        decimation_count += 1
 
     viewer.close()
 
