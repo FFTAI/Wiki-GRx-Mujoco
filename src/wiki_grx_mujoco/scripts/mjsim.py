@@ -306,6 +306,8 @@ def main():
         "..",
         "..",
         "..",
+        "robots",
+        args.robot,
         "policy",
         robot_cfg.policy.path
     )
