@@ -6,8 +6,9 @@ import tqdm
 import mujoco
 import mujoco.viewer
 
-from run.robots.robot_config.GR1T1_mj_config import GR1T1LowerLimbCfg
-from run.robots.robot_config.GR1T2_mj_config import GR1T2LowerLimbCfg
+from src.robots.robot_config.GR1T1_mj_config import GR1T1LowerLimbCfg
+from src.robots.robot_config.GR1T2_mj_config import GR1T2LowerLimbCfg
+from src.robots.N1.config.mj_config import N1Config
 
 
 # Define the Command class
@@ -37,7 +38,7 @@ def get_obs(data):
     return q, dq, quat, omega
 
 
-# Function to run the Mujoco simulation
+# Function to src the Mujoco simulation
 def run_mujoco(
         robot_cfg,
         policy,
@@ -169,10 +170,8 @@ if __name__ == "__main__":
     parser.add_argument("--terrain", action="store_true", help="terrain or plane")
 
     args = parser.parse_args()
-    if args.robot == "gr1t1":
-        RobotConfig = GR1T1LowerLimbCfg
-    elif args.robot == "gr1t2":
-        RobotConfig = GR1T2LowerLimbCfg
+    if args.robot == "N1":
+        RobotConfig = N1Config
     else:
         raise ValueError(f"Unknown robot: {args.robot}")
 
