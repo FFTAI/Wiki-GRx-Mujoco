@@ -50,8 +50,8 @@ def run_mujoco(
     """
 
     # Load the Mujoco model
-    model = mujoco.MjModel.from_xml_path(robot_cfg.sim_config.mujoco_model_path)
-    model.opt.timestep = robot_cfg.sim_config.dt
+    model = mujoco.MjModel.from_xml_path(robot_cfg.sim.mujoco_model_path)
+    model.opt.timestep = robot_cfg.sim.dt
     data = mujoco.MjData(model)
 
     # Setup the viewer
@@ -68,7 +68,7 @@ def run_mujoco(
     mujoco.mj_step(model, data)
 
     # Calculate the total number of simulation steps
-    total_steps = int(robot_cfg.sim_config.sim_duration / robot_cfg.sim_config.dt)
+    total_steps = int(robot_cfg.sim.sim_duration / robot_cfg.sim.dt)
 
     # Print DOF sequence
     mj_joint_names = [model.jnt(i).name for i in range(model.njnt)]
@@ -139,7 +139,7 @@ def run_mujoco(
                     break
 
         # RL policy
-        if decimation_count % robot_cfg.sim_config.decimation == 0:
+        if decimation_count % robot_cfg.sim.decimation == 0:
             obs = numpy.zeros([1, robot_cfg.env.num_obs], dtype=numpy.float32)
 
             # quat: mujoco wxyz -> pytorch xyzw
@@ -205,10 +205,10 @@ def run_mujoco(
             decimation_count = 0
 
             # PD control
-            tau = (target_q - q_dof) * robot_cfg.RobotConfig.kps + (0 - dq_dof) * robot_cfg.RobotConfig.kds
+            tau = (target_q - q_dof) * robot_cfg.robot.kps + (0 - dq_dof) * robot_cfg.robot.kds
             tau = numpy.clip(tau,
-                             -robot_cfg.RobotConfig.tau_limit,
-                             +robot_cfg.RobotConfig.tau_limit)
+                             -robot_cfg.robot.tau_limit,
+                             +robot_cfg.robot.tau_limit)
 
             # Apply the control signal (torque control)
             data.ctrl = tau
@@ -250,14 +250,8 @@ def main():
         "model_path = ", model_path
     )
 
-    class Sim2SimCfg(RobotConfig):
-        class sim_config:
-            mujoco_model_path = model_path
-            sim_duration = 60.0  # seconds
-            dt = 0.001  # seconds
-            decimation = 20  # decimation factor
-
-    robot_cfg = Sim2SimCfg()
+    robot_cfg = RobotConfig()
+    robot_cfg.sim.model_path = model_path
 
     # Load the policy
     policy_path = os.path.join(

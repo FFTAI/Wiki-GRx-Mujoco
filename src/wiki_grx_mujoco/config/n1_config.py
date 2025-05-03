@@ -2,13 +2,20 @@ import numpy
 
 
 class N1Config:
-    class SimConfig:
-        # Simulate update rate 50Hz
-        sim_duration = 50.0
+    class sim:
+        model_path = None
+        sim_duration = 60.0
         dt = 0.001
         decimation = 20
 
-    class RobotConfig:
+    class env:
+        num_dofs = 6 + 6 + 1 + 5 + 5
+        num_obs = 48
+        num_stack = 5
+        num_stack_obs = num_obs * num_stack
+        num_actions = 6 + 6 + 1
+
+    class robot:
         kps = numpy.array([
             180.0, 120.0, 120.0, 180.0, 45.0, 45.0,  # left leg
             180.0, 120.0, 120.0, 180.0, 45.0, 45.0,  # right leg
@@ -32,13 +39,6 @@ class N1Config:
         ], dtype=numpy.double)
 
         joint_nums = 6 + 6 + 1
-
-    class env:
-        num_dofs = 6 + 6 + 1 + 5 + 5
-        num_obs = 48
-        num_stack = 5
-        num_stack_obs = num_obs * num_stack
-        num_actions = 6 + 6 + 1
 
     class normalization:
         actions_max = numpy.array([
@@ -140,32 +140,6 @@ class N1Config:
 
             # waist
             "waist_yaw": 1,
-        }
-
-        # PD Drive parameters:
-        stiffness = {
-            # leg
-            "hip_pitch": 180.0,
-            "hip_roll": 120.0,
-            "hip_yaw": 90.0,
-            "knee_pitch": 120.0,
-            "ankle_roll": 45.0,
-            "ankle_pitch": 45.0,
-
-            # waist
-            "waist_yaw": 90.0,
-        }  # [N*m/rad]
-        damping = {
-            # leg
-            "hip_pitch": 10.0,
-            "hip_roll": 10.0,
-            "hip_yaw": 8.0,
-            "knee_pitch": 8.0,
-            "ankle_roll": 2.5,
-            "ankle_pitch": 2.5,
-
-            # waist
-            "waist_yaw": 8.0,
         }
 
     class policy:
