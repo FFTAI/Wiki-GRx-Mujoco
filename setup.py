@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='wiki-grx-mujoco',
+    name='wiki_grx_mujoco',
     version='1.0.0',
     author='Jason Chen',
     author_email='xin.chen@fftai.com',

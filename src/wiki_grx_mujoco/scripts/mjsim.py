@@ -6,7 +6,7 @@ import tqdm
 import mujoco
 import mujoco.viewer
 
-from robots.N1.config.mj_config import N1Config
+from wiki_grx_mujoco.config.n1_config import N1Config
 
 
 # Define the Command class
@@ -160,7 +160,7 @@ def run_mujoco(
     viewer.close()
 
 
-if __name__ == "__main__":
+def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(description="Deployment script.")
     parser.add_argument("--robot", type=str, help="Path to the model to load.")
@@ -182,7 +182,6 @@ if __name__ == "__main__":
         "scene.xml"
     )
 
-
     class Sim2SimCfg(RobotConfig):
         class sim_config:
             mujoco_model_path = model_path
@@ -190,12 +189,12 @@ if __name__ == "__main__":
             dt = 0.001  # seconds
             decimation = 20  # decimation factor
 
-
     robot_cfg = Sim2SimCfg()
 
     # Load the policy
     policy_path = os.path.join(
         os.path.dirname(__file__),
+        "..",
         "..",
         "policy",
         args.policy
@@ -210,3 +209,7 @@ if __name__ == "__main__":
 
     # Run the Mujoco simulation
     run_mujoco(robot_cfg=robot_cfg, policy=policy)
+
+
+if __name__ == "__main__":
+    main()
