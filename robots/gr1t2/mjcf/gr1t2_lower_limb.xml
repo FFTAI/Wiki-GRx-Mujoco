@@ -1,5 +1,5 @@
 <mujoco model="gr1t2">
-    <compiler angle="radian" meshdir="assets" autolimits="true"/>
+    <compiler angle="radian" meshdir="../meshes" autolimits="true"/>
 
     <default>
         <default class="gr1t2">

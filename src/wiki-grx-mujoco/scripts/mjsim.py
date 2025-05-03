@@ -6,9 +6,7 @@ import tqdm
 import mujoco
 import mujoco.viewer
 
-from src.robots.robot_config.GR1T1_mj_config import GR1T1LowerLimbCfg
-from src.robots.robot_config.GR1T2_mj_config import GR1T2LowerLimbCfg
-from src.robots.N1.config.mj_config import N1Config
+from robots.N1.config.mj_config import N1Config
 
 
 # Define the Command class
