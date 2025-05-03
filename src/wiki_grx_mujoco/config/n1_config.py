@@ -2,13 +2,6 @@ import numpy
 
 
 class N1Config:
-    class env:
-        num_pri_obs = 168  ##
-        num_actions = 10
-        num_single_obs = 39
-        num_stack = 5
-        num_observations = 39
-
     class SimConfig:
         # Simulate update rate 50Hz
         sim_duration = 50.0
@@ -17,86 +10,163 @@ class N1Config:
 
     class RobotConfig:
         kps = numpy.array([
-            57, 43, 114, 114, 15.3,
-            57, 43, 114, 114, 15.3,
+            180.0, 120.0, 120.0, 180.0, 45.0, 45.0,  # left leg
+            180.0, 120.0, 120.0, 180.0, 45.0, 45.0,  # right leg
+            90.0,  # waist
+            90.0, 45.0, 45.0, 45.0, 45.0,  # left arm
+            90.0, 45.0, 45.0, 45.0, 45.0,  # right arm
         ], dtype=numpy.double)
         kds = numpy.array([
-            5.7, 4.3, 11.4, 11.4, 1.53,
-            5.7, 4.3, 11.4, 11.4, 1.53,
+            10.0, 10.0, 8.0, 8.0, 2.5, 2.5,  # left leg
+            10.0, 10.0, 8.0, 8.0, 2.5, 2.5,  # right leg
+            8.0,  # waist
+            8.0, 2.5, 2.5, 2.5, 2.5,  # left arm
+            8.0, 2.5, 2.5, 2.5, 2.5,  # right arm
         ], dtype=numpy.double)
         tau_limit = numpy.array([
-            60, 45, 130, 130, 16,
-            60, 45, 130, 130, 16,
+            95, 54, 54, 95, 30, 30,  # left leg
+            95, 54, 54, 95, 30, 30,  # right leg
+            54,  # waist
+            54, 30, 30, 30, 30,  # left arm
+            54, 30, 30, 30, 30,  # right arm
         ], dtype=numpy.double)
-        joint_nums = 10
+
+        joint_nums = 6 + 6 + 1
+
+    class env:
+        num_dofs = 6 + 6 + 1 + 5 + 5
+        num_obs = 48
+        num_stack = 5
+        num_stack_obs = num_obs * num_stack
+        num_actions = 6 + 6 + 1
 
     class normalization:
         actions_max = numpy.array([
-            0.79, 0.7, 0.7, 1.92, 0.52,  # left leg
-            0.09, 0.7, 0.7, 1.92, 0.52,  # right leg
+            2.618, 1.571, 1.571, 2.356, 0.436, 0.785,  # left leg
+            2.618, 0.262, 1.571, 2.356, 0.436, 0.785,  # right leg
+            2.618,  # waist
         ])
         actions_min = numpy.array([
-            -0.09, -0.7, -1.75, -0.09, -1.05,  # left leg
-            -0.79, -0.7, -1.75, -0.09, -1.05,  # right leg
+            -2.618, -0.262, -1.571, -0.087, -0.436, -0.785,  # left leg
+            -2.618, -1.571, -1.571, -0.087, -0.436, -0.785,  # right leg
+            -2.618,  # waist
         ])
 
         clip_observations = 100.0
-        clip_actions_max = numpy.array([
-            1.1391, 1.0491, 1.0491, 2.2691, 0.8691,
-            0.4391, 1.0491, 1.0491, 2.2691, 0.8691,
-        ])
-        clip_actions_min = numpy.array([
-            -0.4391, -1.0491, -2.0991, -0.4391, -1.3991,
-            -1.1391, -1.0491, -2.0991, -0.4391, -1.3991,
-        ])
+
+        clip_actions_max = \
+            actions_max \
+            + numpy.array([
+                1.0, 1.0, 1.0, 1.0, 1.0, 1.0,  # left leg
+                1.0, 1.0, 1.0, 1.0, 1.0, 1.0,  # right leg
+                1.0,  # waist
+            ])
+        clip_actions_min = \
+            actions_min \
+            - numpy.array([
+                1.0, 1.0, 1.0, 1.0, 1.0, 1.0,  # left leg
+                1.0, 1.0, 1.0, 1.0, 1.0, 1.0,  # right leg
+                1.0,  # waist
+            ])
 
         class obs_scales:
-            action = 1.0
-            lin_vel = 1.0
-            ang_vel = 1.0
-            dof_pos = 1.0
-            dof_vel = 1.0
-            height_measurements = 1.0
+            action = 1.00
+            lin_vel = 1.00  # map 1.0 m/s -> 1.0
+            ang_vel = 1.00  # map 1.0 rad/s -> 1.0
+            gravity = 1.00
+            dof_pos = 1.00
+            dof_vel = 0.10  # map 6.28 rad/s -> 0.628
+            height_measurements = 5.0  # map 0.2 m -> 1.0
 
     class init_state:
-        pos = [0.0, 0.0, 0.95]  # x,y,z [m]
+        pos = [0.0, 0.0, 0.70]  # x,y,z [m]
 
         default_joint_angles = {  # = target angles [rad] when action = 0.0
             # left leg
-            'l_hip_roll': 0.0,
-            'l_hip_yaw': 0.,
-            'l_hip_pitch': -0.2618,
-            'l_knee_pitch': 0.5236,
-            'l_ankle_pitch': -0.2618,
-            # 'l_ankle_roll': 0.0,
+            "left_hip_pitch_joint": -numpy.deg2rad(14.0),
+            "left_hip_roll_joint": 0.0,
+            "left_hip_yaw_joint": 0.0,
+            "left_knee_pitch_joint": +numpy.deg2rad(29.5),
+            "left_ankle_roll_joint": 0.0,
+            "left_ankle_pitch_joint": -numpy.deg2rad(13.7),
 
             # right leg
-            'r_hip_roll': 0.0,
-            'r_hip_yaw': 0.,
-            'r_hip_pitch': -0.2618,
-            'r_knee_pitch': 0.5236,
-            'r_ankle_pitch': -0.2618,
-            # 'r_ankle_roll': 0.0,
+            "right_hip_pitch_joint": -numpy.deg2rad(14.0),
+            "right_hip_roll_joint": 0.0,
+            "right_hip_yaw_joint": 0.0,
+            "right_knee_pitch_joint": +numpy.deg2rad(29.5),
+            "right_ankle_roll_joint": 0.0,
+            "right_ankle_pitch_joint": -numpy.deg2rad(13.7),
+
+            # waist
+            "waist_yaw_joint": 0.0,
         }
 
-    class MujocoModelPath:
-        def __init__(self, path='./'):
-            self.path = path
+    class observation:
+        num_dofs = 6 + 6 + 1
+        index_dofs = [
+            0, 1, 2, 3, 4, 5,  # left leg
+            6, 7, 8, 9, 10, 11,  # right leg
+            12,  # waist
+        ]
+        num_actions = 6 + 6 + 1
+        index_actions = [
+            0, 1, 2, 3, 4, 5,  # left leg
+            6, 7, 8, 9, 10, 11,  # right leg
+            12,  # waist
+        ]
 
     class control:
-        action_scale = 1.0
+        action_names = [
+            # leg
+            "hip_pitch",
+            "hip_roll",
+            "hip_yaw",
+            "knee_pitch",
+            "ankle_roll",
+            "ankle_pitch",
+
+            # waist
+            "waist_yaw",
+        ]
+        action_scale = {
+            # leg
+            "hip_pitch": 1,
+            "hip_roll": 1,
+            "hip_yaw": 1,
+            "knee_pitch": 1,
+            "ankle_roll": 1,
+            "ankle_pitch": 1,
+
+            # waist
+            "waist_yaw": 1,
+        }
+
         # PD Drive parameters:
         stiffness = {
-            'hip_roll': 57,
-            'hip_yaw': 43,
-            'hip_pitch': 114,
-            'knee_pitch': 114,
-            'ankle_pitch': 15.3,
+            # leg
+            "hip_pitch": 180.0,
+            "hip_roll": 120.0,
+            "hip_yaw": 90.0,
+            "knee_pitch": 120.0,
+            "ankle_roll": 45.0,
+            "ankle_pitch": 45.0,
+
+            # waist
+            "waist_yaw": 90.0,
         }  # [N*m/rad]
         damping = {
-            'hip_roll': stiffness['hip_roll'] / 10,
-            'hip_yaw': stiffness['hip_yaw'] / 10,
-            'hip_pitch': stiffness['hip_pitch'] / 10,
-            'knee_pitch': stiffness['knee_pitch'] / 10,
-            'ankle_pitch': stiffness['ankle_pitch'] / 10,
+            # leg
+            "hip_pitch": 10.0,
+            "hip_roll": 10.0,
+            "hip_yaw": 8.0,
+            "knee_pitch": 8.0,
+            "ankle_roll": 2.5,
+            "ankle_pitch": 2.5,
+
+            # waist
+            "waist_yaw": 8.0,
         }
+
+    class policy:
+        path = "policy_jit_walk.pt"

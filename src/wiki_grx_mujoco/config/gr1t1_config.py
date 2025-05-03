@@ -78,10 +78,6 @@ class GR1T1LowerLimbCfg:
             # 'r_ankle_roll': 0.0,
         }
 
-    class MujocoModelPath:
-        def __init__(self, path='./'):
-            self.path = path
-
     class control:
         action_scale = 1.0
         # PD Drive parameters:

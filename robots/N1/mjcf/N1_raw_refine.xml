@@ -93,7 +93,7 @@
 
         <body name="base_link" pos="0 0 0.70">
             <!-- Add freejoint will add additional 7 dofs -->
-            <freejoint/>
+            <freejoint name="base_free_joint"/>
 
             <inertial pos="0.00025493 1.049e-05 -0.05502" quat="0.704566 0.709615 0.00402273 -0.00405522" mass="3.18" diaginertia="0.0111393 0.00899019 0.00761893"/>
             <geom class="visual" mesh="base_link"/>
