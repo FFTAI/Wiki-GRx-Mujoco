@@ -1,7 +1,7 @@
 <mujoco model="gr1t1">
     <compiler angle="radian" meshdir="../meshes" autolimits="true"/>
-    <option timestep='0.001' iterations='20' solver='PGS' gravity='0 0 -9.81' apirate='1000'>
-    </option>
+
+    <option timestep='0.001' iterations='20' solver='PGS' gravity='0 0 -9.81' apirate='1000'/>
     <size njmax="500" nconmax="100"/>
 
     <visual>

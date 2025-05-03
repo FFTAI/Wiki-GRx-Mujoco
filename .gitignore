@@ -32,6 +32,6 @@
 *.app
 
 # python project
-wiki_grx_mujoco.egg-info/
+*.egg-info
 
 *.pyc

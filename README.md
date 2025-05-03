@@ -40,7 +40,7 @@
 
 1. 启动仿真
    ```
-   python src/scripts/mjsim.py --robot=N1 --policy=policy_jit_walk.pt
+   python main.py --robot=N1 --policy=policy_jit_walk.pt
    ```
 
 ---

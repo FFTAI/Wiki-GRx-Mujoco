@@ -15,6 +15,12 @@
                 <geom group="2" mass="0" density="0" rgba="1 1 1 1"/>
             </default>
 
+            <!-- attach -->
+            <!-- site 不参与碰撞和计算 body 的质量和惯性，用于安装传感器 -->
+            <default class="attach">
+                <site group="3" type="sphere" size="0.005" rgba="1 1 1 1"/>
+            </default>
+
             <!-- joint -->
             <default class="joint_8029E">
                 <joint armature="0.12109824" type="hinge" range="0 0" actuatorfrcrange="-95 95"/>
@@ -180,6 +186,7 @@
             <body name="imu_link" pos="0 0 -0.1472">
                 <inertial pos="-0.0071125 0 0.00072936" quat="0 0.719035 0 0.694973" mass="0.038" diaginertia="2.3377e-05 2.012e-05 8.67298e-06"/>
                 <geom class="visual" mesh="imu_link"/>
+                <site class="attach" name="imu_sensor"/>
             </body>
 
             <!-- waist -->
@@ -319,5 +326,11 @@
         <motor class="motor_4530E" name="right_elbow_pitch" joint="right_elbow_pitch_joint"/>
         <motor class="motor_4530E" name="right_wrist_yaw" joint="right_wrist_yaw_joint"/>
     </actuator>
+
+    <sensor>
+        <framequat name='orientation' objtype='site' objname='imu_sensor'/>
+        <gyro name='angular-velocity' site='imu_sensor' cutoff='34.9'/>
+        <accelerometer name='linear-acceleration' site='imu_sensor' cutoff='157'/>
+    </sensor>
 
 </mujoco>

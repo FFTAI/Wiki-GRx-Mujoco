@@ -75,6 +75,14 @@ def run_mujoco(
 
         # Retrieve observation data
         q, dq, quat, omega = get_obs(data)
+
+        print(
+            "q = ", q, "\n",
+            "dq = ", dq, "\n",
+            "quat = ", quat, "\n",
+            "omega = ", omega, "\n",
+        )
+
         q = q[-robot_cfg.env.num_actions:]
         dq = dq[-robot_cfg.env.num_actions:]
 
@@ -163,9 +171,8 @@ def run_mujoco(
 def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(description="Deployment script.")
-    parser.add_argument("--robot", type=str, help="Path to the model to load.")
+    parser.add_argument("--robot", type=str, required=True, help="Path to the model to load.")
     parser.add_argument("--policy", type=str, required=True, help="Run to load from.")
-    parser.add_argument("--terrain", action="store_true", help="terrain or plane")
 
     args = parser.parse_args()
     if args.robot == "N1":
@@ -177,9 +184,16 @@ def main():
     model_path = os.path.join(
         os.path.dirname(__file__),
         "..",
+        "..",
+        "..",
         "robots",
         args.robot,
+        "mjcf",
         "scene.xml"
+    )
+
+    print(
+        "model_path = ", model_path
     )
 
     class Sim2SimCfg(RobotConfig):
@@ -196,12 +210,17 @@ def main():
         os.path.dirname(__file__),
         "..",
         "..",
+        "..",
         "policy",
         args.policy
     )
 
+    print(
+        "policy_path = ", policy_path
+    )
+
     if os.path.exists(policy_path):
-        print(f"Loading policy from {policy_path}")
+        pass
     else:
         raise FileNotFoundError(f"File {policy_path} not found")
 

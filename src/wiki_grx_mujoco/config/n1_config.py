@@ -6,6 +6,7 @@ class N1Config:
         num_pri_obs = 168  ##
         num_actions = 10
         num_single_obs = 39
+        num_stack = 5
         num_observations = 39
 
     class SimConfig:
