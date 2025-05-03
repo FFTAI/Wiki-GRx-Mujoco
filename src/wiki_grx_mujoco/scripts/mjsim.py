@@ -192,8 +192,8 @@ def run_mujoco(
 
             # omega: roll, pitch, yaw
             omega_tensor = torch.from_numpy(numpy.array([omega])).float()
-            # omega_proj = quat_rotate_inverse(quat_tensor, omega_tensor)
-            omega_proj = omega_tensor
+            omega_proj = quat_rotate_inverse(quat_tensor, omega_tensor)
+            # omega_proj = omega_tensor
 
             # q_obs_dof_offset
             q_obs_dof_offset = (q_obs_dof - q_obs_dof_default)
@@ -205,11 +205,11 @@ def run_mujoco(
             actions = actions
 
             # obs
-            obs[0, 0: 0 + 3] = omega_proj
-            obs[0, 3: 3 + 3] = quat_proj
-            obs[0, 6: 6 + 1] = robot_cfg.command.lin_vel_x
-            obs[0, 7: 7 + 1] = robot_cfg.command.lin_vel_y
-            obs[0, 8: 8 + 1] = robot_cfg.command.ang_vel_yaw
+            obs[0, 0: 0 + 1] = robot_cfg.command.lin_vel_x
+            obs[0, 1: 1 + 1] = robot_cfg.command.lin_vel_y
+            obs[0, 2: 2 + 1] = robot_cfg.command.ang_vel_yaw
+            obs[0, 3: 3 + 3] = omega_proj
+            obs[0, 6: 6 + 3] = quat_proj
             obs[0, 9 + 0 * robot_cfg.observation.num_dofs: 9 + 1 * robot_cfg.observation.num_dofs] = q_obs_dof_offset * robot_cfg.normalization.obs_scales.dof_pos
             obs[0, 9 + 1 * robot_cfg.observation.num_dofs: 9 + 2 * robot_cfg.observation.num_dofs] = dq_obs_dof * robot_cfg.normalization.obs_scales.dof_vel
             obs[0, 9 + 2 * robot_cfg.observation.num_dofs: 9 + 2 * robot_cfg.observation.num_dofs + 1 * robot_cfg.observation.num_actions] = actions

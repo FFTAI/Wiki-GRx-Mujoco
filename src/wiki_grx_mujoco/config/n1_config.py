@@ -16,7 +16,7 @@ class N1Config:
         num_actions = 6 + 6 + 1
 
     class command:
-        lin_vel_x = 0.25
+        lin_vel_x = 0
         lin_vel_y = 0
         ang_vel_yaw = 0
 
@@ -62,16 +62,16 @@ class N1Config:
         clip_actions_max = \
             actions_max \
             + numpy.array([
-                1.0, 1.0, 1.0, 1.0, 1.0, 1.0,  # left leg
-                1.0, 1.0, 1.0, 1.0, 1.0, 1.0,  # right leg
-                1.0,  # waist
+                0.5, 0.5, 0.5, 0.5, 0.5, 0.5,  # left leg
+                0.5, 0.5, 0.5, 0.5, 0.5, 0.5,  # right leg
+                0.5,  # waist
             ])
         clip_actions_min = \
             actions_min \
             - numpy.array([
-                1.0, 1.0, 1.0, 1.0, 1.0, 1.0,  # left leg
-                1.0, 1.0, 1.0, 1.0, 1.0, 1.0,  # right leg
-                1.0,  # waist
+                0.5, 0.5, 0.5, 0.5, 0.5, 0.5,  # left leg
+                0.5, 0.5, 0.5, 0.5, 0.5, 0.5,  # right leg
+                0.5,  # waist
             ])
 
         class obs_scales:
