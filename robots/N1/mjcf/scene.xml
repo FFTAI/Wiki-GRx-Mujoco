@@ -1,7 +1,7 @@
 <mujoco model="N1 scene">
     <include file="N1_raw_refine.xml"/>
 
-    <statistic center="0 0 1" extent="1.8"/>
+    <statistic center="0 0 0.65" extent="1.3"/>
 
     <visual>
         <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0"/>
@@ -20,4 +20,14 @@
         <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"/>
     </worldbody>
 
+    <keyframe>
+        <key name="home"
+             qpos="0 0 0 1 0 0 0
+                   0 0 0 0 0 0
+                   0 0 0 0 0 0
+                   0
+                   0 0 0 0 0
+                   0 0 0 0 0"
+        />
+    </keyframe>
 </mujoco>
