@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <mujoco model="N1">
     <compiler angle="radian" meshdir="../meshes" autolimits="true"/>
 
