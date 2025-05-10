@@ -3,9 +3,12 @@ from setuptools import setup, find_packages
 setup(
     name="wiki_grx_mujoco",
     version="1.0.0",
+    description="Test Fourier robots' policy in MUJOCO environment",
     author="Jason Chen",
     author_email="xin.chen@fftai.com",
-    description="test policy in mujoco env",
+    license="Apache-2.0",
+    packages=find_packages(),
+    package_dir={"": "src"},
     python_requires=">=3.11",
     install_requires=[
         "numpy>=1.20.0",
