@@ -6,7 +6,7 @@ setup(
     description="Test Fourier robots' policy in MUJOCO environment",
     author="Jason Chen",
     author_email="xin.chen@fftai.com",
-    license="Apache-2.0",
+    license="LGPL-3.0",
     packages=find_packages(),
     package_dir={"": "src"},
     python_requires=">=3.11",
