@@ -192,8 +192,8 @@ def run_mujoco(
 
             # omega: roll, pitch, yaw
             omega_tensor = torch.from_numpy(numpy.array([omega])).float()
-            omega_proj = quat_rotate_inverse(quat_tensor, omega_tensor)
-            # omega_proj = omega_tensor
+            # omega_proj = quat_rotate_inverse(quat_tensor, omega_tensor)
+            omega_proj = omega_tensor
 
             # q_obs_dof_offset
             q_obs_dof_offset = (q_obs_dof - q_obs_dof_default)
