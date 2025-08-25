@@ -132,6 +132,8 @@
                                     <joint class="joint_4530E" name="left_ankle_pitch_joint" pos="0 0 0" axis="0 1 0" range="-0.785 0.785"/>
                                     <geom class="visual" mesh="left_foot_pitch_link"/>
                                     <geom class="collision" type="mesh" mesh="left_foot_pitch_link"/>
+
+                                    <geom name="l_foot_sole" type="box" pos="0.025 0 -0.05" size="0.08 0.03 0.001" rgba="1 0 0 0.2"/>
                                 </body>
                             </body>
                         </body>
@@ -174,6 +176,7 @@
                                     <geom class="visual" mesh="right_foot_pitch_link"/>
                                     <geom class="collision" type="mesh" mesh="right_foot_pitch_link"/>
 
+                                    <geom name="r_foot_sole" type="box" pos="0.025 0 -0.05" size="0.08 0.03 0.001" rgba="1 0 0 0.2"/>
                                 </body>
                             </body>
                         </body>
