@@ -5,8 +5,8 @@ class N1Config:
     class sim:
         model_path = None
         sim_duration = 60.0
-        dt = 0.001
-        decimation = 20
+        dt = 0.01
+        decimation = 2
 
     class env:
         num_dofs = 6 + 6 + 1 + 5 + 5
