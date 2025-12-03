@@ -31,7 +31,7 @@
 
 3. 依赖库安装
    ```
-   pip install -e . -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+   pip install -e .
    ```
 
 ### 使用说明
