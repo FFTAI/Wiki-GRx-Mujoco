@@ -6,7 +6,9 @@ import tqdm
 import mujoco
 import mujoco.viewer
 
-from wiki_grx_mujoco.config.n1_config import N1Config
+# from wiki_grx_mujoco.config.n1_config_test import N1Config
+
+from wiki_grx_mujoco.config.n1_config_walk import N1Config
 
 # log colors
 WHITE = "\033[97m"
@@ -205,14 +207,14 @@ def run_mujoco(
             actions = actions
 
             # obs
-            obs[0, 0: 0 + 1] = robot_cfg.command.lin_vel_x
-            obs[0, 1: 1 + 1] = robot_cfg.command.lin_vel_y
-            obs[0, 2: 2 + 1] = robot_cfg.command.ang_vel_yaw
-            obs[0, 3: 3 + 3] = omega_proj
-            obs[0, 6: 6 + 3] = quat_proj
+            obs[0, 0: 0 + 1] = robot_cfg.command.lin_vel_x * robot_cfg.normalization.obs_scales.lin_vel
+            obs[0, 1: 1 + 1] = robot_cfg.command.lin_vel_y * robot_cfg.normalization.obs_scales.lin_vel
+            obs[0, 2: 2 + 1] = robot_cfg.command.ang_vel_yaw * robot_cfg.normalization.obs_scales.ang_vel
+            obs[0, 3: 3 + 3] = omega_proj * robot_cfg.normalization.obs_scales.ang_vel
+            obs[0, 6: 6 + 3] = quat_proj * robot_cfg.normalization.obs_scales.gravity
             obs[0, 9 + 0 * robot_cfg.observation.num_dofs: 9 + 1 * robot_cfg.observation.num_dofs] = q_obs_dof_offset * robot_cfg.normalization.obs_scales.dof_pos
             obs[0, 9 + 1 * robot_cfg.observation.num_dofs: 9 + 2 * robot_cfg.observation.num_dofs] = dq_obs_dof * robot_cfg.normalization.obs_scales.dof_vel
-            obs[0, 9 + 2 * robot_cfg.observation.num_dofs: 9 + 2 * robot_cfg.observation.num_dofs + 1 * robot_cfg.observation.num_actions] = actions
+            obs[0, 9 + 2 * robot_cfg.observation.num_dofs: 9 + 2 * robot_cfg.observation.num_dofs + 1 * robot_cfg.observation.num_actions] = actions * robot_cfg.normalization.obs_scales.action
 
             obs = numpy.clip(obs,
                              -robot_cfg.normalization.clip_observations,
