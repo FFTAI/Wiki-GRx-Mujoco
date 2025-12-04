@@ -6,9 +6,9 @@ import tqdm
 import mujoco
 import mujoco.viewer
 
-# from wiki_grx_mujoco.config.n1_config_test import N1Config
-
 from wiki_grx_mujoco.config.n1_config_walk import N1Config
+
+# from wiki_grx_mujoco.config.n1_config_walk_refine import N1Config
 
 # log colors
 WHITE = "\033[97m"

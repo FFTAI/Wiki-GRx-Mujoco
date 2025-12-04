@@ -148,4 +148,4 @@ class N1Config:
         }
 
     class policy:
-        path = "policy_jit_test.pt"
+        path = "policy_jit_walk_refine.pt"
